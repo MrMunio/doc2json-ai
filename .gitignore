@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# Temporary and cache directories
+cache/
+temp_uploads/
+files/
+schemas/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Docker
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db

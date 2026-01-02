@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: extraction_db
+    environment:
+      POSTGRES_DB: ${DB_NAME:-extraction_db}
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-extraction_db}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build: .
+    container_name: extraction_app
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - DB_HOST=db
+    ports:
+      - "8021:8021"
+    volumes:
+      - .:/app # Volume mapping project folder to /app for live logs and code access
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8021/health')" ]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+
+  ui:
+    build: .
+    container_name: extraction_ui
+    restart: always
+    depends_on:
+      app:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - API_BASE_URL=http://app:8021
+      - POLLING_INTERVAL_SECONDS=${POLLING_INTERVAL_SECONDS:-10}
+      - TIKTOKEN_CACHE_DIR=/app/cache/tiktoken
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: streamlit run streamlit_app.py --server.address=0.0.0.0 --server.enableCORS=false --server.enableXsrfProtection=false
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8501/_stcore/health" ]
+      interval: 15s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_data:

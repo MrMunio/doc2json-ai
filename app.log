@@ -1,0 +1,1524 @@
+2025-12-12 00:39:26,007 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-12 00:39:33,590 - INFO - Async database connection test successful.
+2025-12-12 00:39:33,592 - INFO - Database connection established
+2025-12-12 00:39:41,956 - INFO - File saved: temp_uploads\file_815b1935-144e-4a27-a49b-bf99702e3485.txt
+2025-12-12 00:39:44,754 - INFO - Initial record saved for request_id: 77a14f65-4ece-48b3-96d0-e724d1117e50
+2025-12-12 00:39:44,755 - INFO - Request accepted with request_id: 77a14f65-4ece-48b3-96d0-e724d1117e50
+2025-12-12 00:39:44,757 - INFO - Starting background processing for request_id: 77a14f65-4ece-48b3-96d0-e724d1117e50
+2025-12-12 00:39:45,500 - INFO - Processing file: temp_uploads\file_815b1935-144e-4a27-a49b-bf99702e3485.txt
+2025-12-12 00:39:45,617 - INFO - Total tokens in document: 20012
+2025-12-12 00:39:45,618 - INFO - Document fits within token limit, no chunking needed
+2025-12-12 00:39:45,618 - INFO - Processing batch 1/1...
+2025-12-12 00:43:05,461 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-12 00:43:05,505 - INFO - In tokens: 27619, Out tokens: 11874, Total: 39493
+2025-12-12 00:43:05,506 - INFO - Successfully extracted contract fields
+2025-12-12 00:43:05,506 - INFO - Batch 1/1 processed successfully
+2025-12-12 00:43:05,507 - INFO - All 1 batches processed successfully!
+2025-12-12 00:43:07,406 - INFO - Record updated for request_id: 77a14f65-4ece-48b3-96d0-e724d1117e50, status: success
+2025-12-12 00:43:07,407 - INFO - Background processing completed for request_id: 77a14f65-4ece-48b3-96d0-e724d1117e50
+2025-12-12 00:43:07,409 - INFO - Deleted temp file: temp_uploads\file_815b1935-144e-4a27-a49b-bf99702e3485.txt
+2025-12-12 00:49:56,425 - INFO - Disposing async engine.
+2025-12-12 00:49:56,729 - INFO - Database client disposed
+2025-12-18 17:04:28,099 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-18 17:04:49,240 - WARNING - Async database connection test failed: [WinError 121] The semaphore timeout period has expired
+2025-12-18 17:04:49,240 - ERROR - Database connection test failed
+2025-12-18 17:04:49,240 - ERROR - Failed to initialize database client: Database connection failed
+2025-12-18 17:05:46,596 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-18 17:06:07,706 - WARNING - Async database connection test failed: [WinError 121] The semaphore timeout period has expired
+2025-12-18 17:06:07,706 - ERROR - Database connection test failed
+2025-12-18 17:06:07,706 - ERROR - Failed to initialize database client: Database connection failed
+2025-12-18 17:07:09,317 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-18 17:07:30,464 - WARNING - Async database connection test failed: [WinError 121] The semaphore timeout period has expired
+2025-12-18 17:07:30,468 - ERROR - Database connection test failed
+2025-12-18 17:07:30,468 - ERROR - Failed to initialize database client: Database connection failed
+2025-12-18 17:10:36,094 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-18 17:10:45,484 - INFO - Async database connection test successful.
+2025-12-18 17:10:45,487 - INFO - Database connection established
+2025-12-18 17:10:45,652 - INFO - S3 client initialized
+2025-12-18 17:11:32,322 - INFO - Async database connection test successful.
+2025-12-18 17:11:40,711 - INFO - File saved: temp_uploads\file_b7609cb8-cbe9-4048-b0c1-9f1b12175e60.txt
+2025-12-18 17:11:43,061 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_b7609cb8-cbe9-4048-b0c1-9f1b12175e60.txt
+2025-12-18 17:11:45,350 - INFO - Initial record saved for request_id: 7ad3a766-6a6e-4e4b-b094-a7d802394a3f
+2025-12-18 17:11:45,351 - INFO - Request accepted with request_id: 7ad3a766-6a6e-4e4b-b094-a7d802394a3f
+2025-12-18 17:11:45,351 - INFO - Starting background processing for request_id: 7ad3a766-6a6e-4e4b-b094-a7d802394a3f
+2025-12-18 17:11:46,891 - INFO - Record updated for request_id: 7ad3a766-6a6e-4e4b-b094-a7d802394a3f, status: inprogress
+2025-12-18 17:11:47,459 - INFO - Processing file: temp_uploads\file_b7609cb8-cbe9-4048-b0c1-9f1b12175e60.txt
+2025-12-18 17:11:47,460 - INFO - Extracted 37 characters
+2025-12-18 17:11:47,463 - INFO - Saved extracted text to: extracted_content.txt
+2025-12-18 17:11:47,533 - INFO - Total tokens in document: 8
+2025-12-18 17:11:47,534 - INFO - Document fits within token limit, no chunking needed
+2025-12-18 17:11:47,534 - INFO - Processing batch 1/1
+2025-12-18 17:11:56,534 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-18 17:11:56,546 - INFO - In tokens: 7615, Out tokens: 424, Total: 8039
+2025-12-18 17:11:56,546 - INFO - Successfully extracted contract fields
+2025-12-18 17:11:56,546 - INFO - Batch 1/1 processed successfully
+2025-12-18 17:11:56,546 - INFO - All 1 batches processed successfully
+2025-12-18 17:11:58,009 - INFO - Record updated for request_id: 7ad3a766-6a6e-4e4b-b094-a7d802394a3f, status: success
+2025-12-18 17:11:58,010 - INFO - Background processing completed for request_id: 7ad3a766-6a6e-4e4b-b094-a7d802394a3f
+2025-12-18 17:11:58,011 - INFO - Deleted temp file: temp_uploads\file_b7609cb8-cbe9-4048-b0c1-9f1b12175e60.txt
+2025-12-18 17:18:55,710 - INFO - Async database connection test successful.
+2025-12-18 17:19:02,306 - INFO - File saved: temp_uploads\file_b1c803ca-2210-44d7-8524-3fc7db72fe66.txt
+2025-12-18 17:19:04,007 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_b1c803ca-2210-44d7-8524-3fc7db72fe66.txt
+2025-12-18 17:19:05,430 - INFO - Initial record saved for request_id: da2f7c8f-9f28-4d30-9e76-23ac9f55042b
+2025-12-18 17:19:05,431 - INFO - Request accepted with request_id: da2f7c8f-9f28-4d30-9e76-23ac9f55042b
+2025-12-18 17:19:05,432 - INFO - Starting background processing for request_id: da2f7c8f-9f28-4d30-9e76-23ac9f55042b
+2025-12-18 17:19:06,884 - INFO - Record updated for request_id: da2f7c8f-9f28-4d30-9e76-23ac9f55042b, status: inprogress
+2025-12-18 17:19:07,099 - INFO - Processing file: temp_uploads\file_b1c803ca-2210-44d7-8524-3fc7db72fe66.txt
+2025-12-18 17:19:07,100 - INFO - Extracted 37 characters
+2025-12-18 17:19:07,101 - INFO - Saved extracted text to: extracted_content.txt
+2025-12-18 17:19:07,101 - INFO - Total tokens in document: 8
+2025-12-18 17:19:07,101 - INFO - Document fits within token limit, no chunking needed
+2025-12-18 17:19:07,102 - INFO - Processing batch 1/1
+2025-12-18 17:19:15,842 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-18 17:19:15,844 - INFO - In tokens: 7615, Out tokens: 488, Total: 8103
+2025-12-18 17:19:15,844 - INFO - Successfully extracted contract fields
+2025-12-18 17:19:15,845 - INFO - Batch 1/1 processed successfully
+2025-12-18 17:19:15,845 - INFO - All 1 batches processed successfully
+2025-12-18 17:19:16,990 - INFO - Record updated for request_id: da2f7c8f-9f28-4d30-9e76-23ac9f55042b, status: success
+2025-12-18 17:19:16,990 - INFO - Background processing completed for request_id: da2f7c8f-9f28-4d30-9e76-23ac9f55042b
+2025-12-18 17:19:16,991 - INFO - Deleted temp file: temp_uploads\file_b1c803ca-2210-44d7-8524-3fc7db72fe66.txt
+2025-12-18 18:11:58,230 - ERROR - Database error: (sqlalchemy.dialects.postgresql.asyncpg.InterfaceError) <class 'asyncpg.exceptions._base.InterfaceError'>: connection is closed
+[SQL: SET search_path TO nextgendb, public]
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+Traceback (most recent call last):
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 843, in _start_transaction
+    self._transaction = self._connection.transaction(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\asyncpg\connection.py", line 302, in transaction
+    self._check_open()
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\asyncpg\connection.py", line 1605, in _check_open
+    raise exceptions.InterfaceError('connection is closed')
+asyncpg.exceptions._base.InterfaceError: connection is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 520, in _prepare_and_execute
+    await adapt_connection._start_transaction()
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 850, in _start_transaction
+    self._handle_exception(error)
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.InterfaceError: <class 'asyncpg.exceptions._base.InterfaceError'>: connection is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\MuniSekhar.Boligala\OneDrive - infomerica,inc\Projects\Infomerica\zyter\provider contract extractor\utils\db_client.py", line 74, in _raw_connection
+    await conn.exec_driver_sql(f"SET search_path TO {self.schema}, public")
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\ext\asyncio\engine.py", line 508, in exec_driver_sql
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\engine\base.py", line 1779, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 520, in _prepare_and_execute
+    await adapt_connection._start_transaction()
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 850, in _start_transaction
+    self._handle_exception(error)
+  File "C:\Users\MuniSekhar.Boligala\AppData\Local\miniconda3\envs\llm-apps\Lib\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.InterfaceError: (sqlalchemy.dialects.postgresql.asyncpg.InterfaceError) <class 'asyncpg.exceptions._base.InterfaceError'>: connection is closed
+[SQL: SET search_path TO nextgendb, public]
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-12-18 18:11:58,506 - ERROR - Error in history endpoint: (sqlalchemy.dialects.postgresql.asyncpg.InterfaceError) <class 'asyncpg.exceptions._base.InterfaceError'>: connection is closed
+[SQL: SET search_path TO nextgendb, public]
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-12-18 18:13:03,225 - ERROR - Error in history endpoint: [WinError 121] The semaphore timeout period has expired
+2025-12-18 18:13:15,649 - WARNING - Async database connection test failed: [WinError 121] The semaphore timeout period has expired
+2025-12-18 18:19:16,137 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-18 18:19:37,262 - WARNING - Async database connection test failed: [WinError 121] The semaphore timeout period has expired
+2025-12-18 18:19:37,264 - ERROR - Database connection test failed
+2025-12-18 18:19:37,266 - ERROR - Failed to initialize database client: Database connection failed
+2025-12-18 18:20:36,908 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-18 18:20:44,846 - INFO - Async database connection test successful.
+2025-12-18 18:20:44,847 - INFO - Database connection established
+2025-12-18 18:20:45,369 - INFO - S3 client initialized
+2025-12-18 18:20:45,371 - INFO - Disposing async engine.
+2025-12-18 18:20:45,664 - INFO - Database client disposed
+2025-12-18 18:20:45,665 - INFO - S3 client closed
+2025-12-18 18:21:08,060 - INFO - Async database connection test successful.
+2025-12-18 18:21:10,152 - INFO - File saved: temp_uploads\file_da710887-1f9b-4337-ab9a-92f09f79fb71.txt
+2025-12-18 18:21:11,577 - INFO - Async database connection test successful.
+2025-12-18 18:21:13,178 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_da710887-1f9b-4337-ab9a-92f09f79fb71.txt
+2025-12-18 18:21:16,065 - INFO - Initial record saved for request_id: 80a76251-1d03-47ef-8f02-d17ba11e6253
+2025-12-18 18:21:16,065 - INFO - Request accepted with request_id: 80a76251-1d03-47ef-8f02-d17ba11e6253
+2025-12-18 18:21:16,066 - INFO - Starting background processing for request_id: 80a76251-1d03-47ef-8f02-d17ba11e6253
+2025-12-18 18:21:17,624 - INFO - Record updated for request_id: 80a76251-1d03-47ef-8f02-d17ba11e6253, status: inprogress
+2025-12-18 18:21:17,867 - INFO - Processing file: temp_uploads\file_da710887-1f9b-4337-ab9a-92f09f79fb71.txt
+2025-12-18 18:21:17,868 - INFO - Extracted 18000 characters
+2025-12-18 18:21:17,869 - INFO - Saved extracted text to: extracted_content.txt
+2025-12-18 18:21:17,875 - INFO - Total tokens in document: 3001
+2025-12-18 18:21:17,875 - INFO - Document fits within token limit, no chunking needed
+2025-12-18 18:21:17,875 - INFO - Processing batch 1/1
+2025-12-18 18:21:18,562 - INFO - Async database connection test successful.
+2025-12-18 18:21:22,458 - INFO - Async database connection test successful.
+2025-12-18 18:21:25,019 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-18 18:21:25,029 - INFO - In tokens: 10608, Out tokens: 369, Total: 10977
+2025-12-18 18:21:25,029 - INFO - Successfully extracted contract fields
+2025-12-18 18:21:25,029 - INFO - Batch 1/1 processed successfully
+2025-12-18 18:21:25,029 - INFO - All 1 batches processed successfully
+2025-12-18 18:21:26,296 - INFO - Async database connection test successful.
+2025-12-18 18:21:26,297 - INFO - Record updated for request_id: 80a76251-1d03-47ef-8f02-d17ba11e6253, status: success
+2025-12-18 18:21:26,297 - INFO - Background processing completed for request_id: 80a76251-1d03-47ef-8f02-d17ba11e6253
+2025-12-18 18:21:26,298 - INFO - Deleted temp file: temp_uploads\file_da710887-1f9b-4337-ab9a-92f09f79fb71.txt
+2025-12-18 18:21:30,084 - INFO - Async database connection test successful.
+2025-12-18 18:22:03,153 - INFO - File saved: temp_uploads\file_0903d7c8-8360-46c2-816b-0418fcd7d225.pdf
+2025-12-18 18:22:09,091 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_0903d7c8-8360-46c2-816b-0418fcd7d225.pdf
+2025-12-18 18:22:10,467 - INFO - Initial record saved for request_id: b9e71dcb-e9e2-4bcb-b051-c498de591cb2
+2025-12-18 18:22:10,468 - INFO - Request accepted with request_id: b9e71dcb-e9e2-4bcb-b051-c498de591cb2
+2025-12-18 18:22:10,470 - INFO - Starting background processing for request_id: b9e71dcb-e9e2-4bcb-b051-c498de591cb2
+2025-12-18 18:22:13,979 - INFO - Record updated for request_id: b9e71dcb-e9e2-4bcb-b051-c498de591cb2, status: inprogress
+2025-12-18 18:22:14,590 - INFO - Processing file: temp_uploads\file_0903d7c8-8360-46c2-816b-0418fcd7d225.pdf
+2025-12-18 18:22:29,598 - INFO - Extracted 557098 characters
+2025-12-18 18:22:29,601 - INFO - Saved extracted text to: extracted_content.txt
+2025-12-18 18:22:29,746 - INFO - Total tokens in document: 124540
+2025-12-18 18:22:29,769 - INFO - Created chunk 1: tokens 0 to 100000
+2025-12-18 18:22:29,771 - INFO - Created chunk 2: tokens 99500 to 124540
+2025-12-18 18:22:29,772 - INFO - Document split into 2 chunks
+2025-12-18 18:22:29,773 - INFO - Processing batch 1/2
+2025-12-18 18:22:31,535 - INFO - Async database connection test successful.
+2025-12-18 18:22:42,822 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-18 18:22:50,419 - INFO - Async database connection test successful.
+2025-12-18 18:22:50,420 - INFO - Database connection established
+2025-12-18 18:22:50,660 - INFO - S3 client initialized
+2025-12-18 18:22:50,662 - INFO - Disposing async engine.
+2025-12-18 18:22:51,003 - INFO - Database client disposed
+2025-12-18 18:22:51,003 - INFO - S3 client closed
+2025-12-18 18:24:45,980 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-18 18:24:53,658 - INFO - Async database connection test successful.
+2025-12-18 18:24:53,660 - INFO - Database connection established
+2025-12-18 18:24:53,961 - INFO - S3 client initialized
+2025-12-18 18:25:01,118 - INFO - File saved: temp_uploads\file_ac0b7b08-efbc-41a0-93e2-535dae619596.pdf
+2025-12-18 18:25:07,556 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_ac0b7b08-efbc-41a0-93e2-535dae619596.pdf
+2025-12-18 18:25:10,624 - INFO - Initial record saved for request_id: 8847125c-03e7-447e-9db4-5eb9efc77469
+2025-12-18 18:25:10,625 - INFO - Request accepted with request_id: 8847125c-03e7-447e-9db4-5eb9efc77469
+2025-12-18 18:25:10,627 - INFO - Starting background processing for request_id: 8847125c-03e7-447e-9db4-5eb9efc77469
+2025-12-18 18:25:12,745 - INFO - Record updated for request_id: 8847125c-03e7-447e-9db4-5eb9efc77469, status: inprogress
+2025-12-18 18:25:13,243 - INFO - Processing file: temp_uploads\file_ac0b7b08-efbc-41a0-93e2-535dae619596.pdf
+2025-12-18 18:25:13,548 - INFO - Extracted 573087 characters
+2025-12-18 18:25:13,550 - INFO - Saved extracted text to: extracted_content.txt
+2025-12-18 18:25:13,639 - INFO - Total tokens in document: 114946
+2025-12-18 18:25:13,643 - INFO - Created chunk 1: tokens 0 to 100000
+2025-12-18 18:25:13,645 - INFO - Created chunk 2: tokens 99500 to 114946
+2025-12-18 18:25:13,645 - INFO - Document split into 2 chunks
+2025-12-18 18:25:13,646 - INFO - Processing batch 1/2
+2025-12-18 18:28:19,747 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-18 18:28:19,777 - INFO - In tokens: 107607, Out tokens: 11934, Total: 119541
+2025-12-18 18:28:19,777 - INFO - Successfully extracted contract fields
+2025-12-18 18:28:19,778 - INFO - Batch 1/2 processed successfully
+2025-12-18 18:28:19,778 - INFO - Processing batch 2/2
+2025-12-18 18:31:16,591 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-18 18:31:16,601 - INFO - In tokens: 29597, Out tokens: 11062, Total: 40659
+2025-12-18 18:31:16,603 - INFO - Successfully extracted contract fields
+2025-12-18 18:31:16,606 - INFO - Batch 2/2 processed successfully
+2025-12-18 18:31:16,607 - INFO - All 2 batches processed successfully
+2025-12-18 18:31:18,213 - INFO - Record updated for request_id: 8847125c-03e7-447e-9db4-5eb9efc77469, status: success
+2025-12-18 18:31:18,215 - INFO - Background processing completed for request_id: 8847125c-03e7-447e-9db4-5eb9efc77469
+2025-12-18 18:31:18,217 - INFO - Deleted temp file: temp_uploads\file_ac0b7b08-efbc-41a0-93e2-535dae619596.pdf
+2025-12-18 18:56:27,392 - INFO - Disposing async engine.
+2025-12-18 18:56:27,710 - INFO - Database client disposed
+2025-12-18 18:56:27,714 - INFO - S3 client closed
+2025-12-19 16:06:17,546 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-19 16:06:26,898 - INFO - Async database connection test successful.
+2025-12-19 16:06:26,899 - INFO - Database connection established
+2025-12-19 16:06:27,948 - INFO - S3 client initialized
+2025-12-19 16:07:03,338 - INFO - File saved: temp_uploads\file_c16d5079-c3b9-4284-9302-f9876c6d4317.pdf
+2025-12-19 16:07:03,340 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:07:11,177 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_c16d5079-c3b9-4284-9302-f9876c6d4317.pdf
+2025-12-19 16:07:12,906 - INFO - Initial record saved for request_id: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:07:12,908 - INFO - Request accepted with request_id: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:07:12,911 - INFO - Starting background processing for request_id: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:07:14,527 - INFO - Record updated for request_id: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3, status: inprogress
+2025-12-19 16:07:15,339 - INFO - Processing file: temp_uploads\file_c16d5079-c3b9-4284-9302-f9876c6d4317.pdf
+2025-12-19 16:07:15,697 - INFO - Extracted 573087 characters
+2025-12-19 16:07:15,700 - INFO - Saved extracted text to: extracted_content.txt
+2025-12-19 16:07:15,860 - INFO - Total tokens in document: 114946
+2025-12-19 16:07:15,865 - INFO - Created chunk 1: tokens 0 to 100000
+2025-12-19 16:07:15,867 - INFO - Created chunk 2: tokens 99500 to 114946
+2025-12-19 16:07:15,868 - INFO - Document split into 2 chunks
+2025-12-19 16:07:15,869 - INFO - Processing batch 1/2
+2025-12-19 16:07:52,897 - INFO - File saved: temp_uploads\file_fcc94dee-b296-416a-912f-5a9235ad7835.pdf
+2025-12-19 16:07:52,900 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:07:54,443 - INFO - Duplicate in-progress record found: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:08:16,630 - INFO - File saved: temp_uploads\file_a3933e3d-c3ee-4b6c-a9f4-8efefa90e954.pdf
+2025-12-19 16:08:16,632 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:08:18,541 - INFO - Duplicate in-progress record found: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:09:05,623 - INFO - File saved: temp_uploads\file_bb1568a9-b3d1-48be-8b4f-8dee84161321.pdf
+2025-12-19 16:09:05,625 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:09:06,921 - INFO - Duplicate in-progress record found: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:10:52,647 - INFO - File saved: temp_uploads\file_d6b2a0f0-1a3a-4381-ab3e-efd5fc9dbaef.pdf
+2025-12-19 16:10:52,650 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:10:54,046 - INFO - Duplicate in-progress record found: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:11:08,357 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 16:11:08,414 - INFO - In tokens: 107607, Out tokens: 14493, Total: 122100
+2025-12-19 16:11:08,417 - INFO - Successfully extracted contract fields
+2025-12-19 16:11:08,421 - INFO - Batch 1/2 processed successfully
+2025-12-19 16:11:08,423 - INFO - Processing batch 2/2
+2025-12-19 16:11:10,704 - INFO - File saved: temp_uploads\file_dfc9b09e-686e-4da2-96be-9577cfd447dc.pdf
+2025-12-19 16:11:10,706 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:11:12,622 - INFO - Duplicate in-progress record found: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:14:05,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 16:14:05,895 - INFO - In tokens: 30092, Out tokens: 10452, Total: 40544
+2025-12-19 16:14:05,896 - INFO - Successfully extracted contract fields
+2025-12-19 16:14:05,899 - INFO - Batch 2/2 processed successfully
+2025-12-19 16:14:05,899 - INFO - All 2 batches processed successfully
+2025-12-19 16:14:07,625 - INFO - Record updated for request_id: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3, status: success
+2025-12-19 16:14:07,627 - INFO - Background processing completed for request_id: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:14:07,636 - INFO - Deleted temp file: temp_uploads\file_c16d5079-c3b9-4284-9302-f9876c6d4317.pdf
+2025-12-19 16:14:40,546 - INFO - File saved: temp_uploads\file_6f5af5a2-0c43-478a-b27d-c8bd02611fda.pdf
+2025-12-19 16:14:40,552 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:14:44,083 - INFO - Duplicate successful record found: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:16:05,153 - INFO - File saved: temp_uploads\file_e2ea9e34-9d23-4854-b06f-5839db4363b4.pdf
+2025-12-19 16:16:05,156 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:16:07,701 - INFO - Duplicate successful record found: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:18:50,459 - INFO - Disposing async engine.
+2025-12-19 16:18:50,767 - INFO - Database client disposed
+2025-12-19 16:18:50,771 - INFO - S3 client closed
+2025-12-19 16:20:26,848 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-19 16:20:34,455 - INFO - Async database connection test successful.
+2025-12-19 16:20:34,458 - INFO - Database connection established
+2025-12-19 16:20:35,134 - INFO - S3 client initialized
+2025-12-19 16:20:37,784 - INFO - File saved: temp_uploads\file_33c2313b-3098-4893-84fd-b61b554de882.pdf
+2025-12-19 16:20:37,788 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:20:41,677 - INFO - Duplicate successful record found: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 16:20:55,618 - INFO - Disposing async engine.
+2025-12-19 16:20:55,930 - INFO - Database client disposed
+2025-12-19 16:20:55,931 - INFO - S3 client closed
+2025-12-19 16:30:08,070 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-19 16:30:16,189 - INFO - Async database connection test successful.
+2025-12-19 16:30:16,191 - INFO - Database connection established
+2025-12-19 16:30:16,554 - INFO - S3 client initialized
+2025-12-19 16:30:20,436 - INFO - File saved: temp_uploads\file_eb03a1f1-b268-4236-a0b1-4778f2597947.pdf
+2025-12-19 16:30:20,439 - INFO - Calculated checksum: 1657411837
+2025-12-19 16:30:23,956 - INFO - Deleted temp file for duplicate request: temp_uploads\file_eb03a1f1-b268-4236-a0b1-4778f2597947.pdf
+2025-12-19 16:30:23,958 - INFO - Duplicate successful record found: 23bef6cb-ad98-4f9a-a7df-f4612623fbd3
+2025-12-19 17:20:32,247 - INFO - Disposing async engine.
+2025-12-19 17:20:32,590 - INFO - Database client disposed
+2025-12-19 17:20:32,592 - INFO - S3 client closed
+2025-12-19 17:20:44,657 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-19 17:20:53,290 - INFO - Async database connection test successful.
+2025-12-19 17:20:53,294 - INFO - Database connection established
+2025-12-19 17:20:54,191 - INFO - S3 client initialized
+2025-12-19 17:27:44,467 - INFO - Disposing async engine.
+2025-12-19 17:27:44,768 - INFO - Database client disposed
+2025-12-19 17:27:44,769 - INFO - S3 client closed
+2025-12-19 17:27:57,353 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-19 17:28:04,819 - INFO - Async database connection test successful.
+2025-12-19 17:28:04,821 - INFO - Database connection established
+2025-12-19 17:28:05,372 - INFO - S3 client initialized
+2025-12-19 17:28:18,110 - INFO - File saved: temp_uploads\file_9c03dd92-d6f2-4165-8171-68efa2cdaa40.pdf
+2025-12-19 17:28:18,115 - INFO - Calculated checksum: 1657411837
+2025-12-19 17:28:26,185 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_9c03dd92-d6f2-4165-8171-68efa2cdaa40.pdf
+2025-12-19 17:28:27,678 - INFO - Initial record saved for request_id: 12e9303c-d885-439b-8c49-afe067bb269d
+2025-12-19 17:28:27,680 - INFO - Request accepted with request_id: 12e9303c-d885-439b-8c49-afe067bb269d
+2025-12-19 17:28:27,690 - INFO - Starting background processing for request_id: 12e9303c-d885-439b-8c49-afe067bb269d
+2025-12-19 17:28:29,209 - INFO - Record updated for request_id: 12e9303c-d885-439b-8c49-afe067bb269d, status: inprogress
+2025-12-19 17:28:31,378 - INFO - Processing file: temp_uploads\file_9c03dd92-d6f2-4165-8171-68efa2cdaa40.pdf
+2025-12-19 17:28:32,797 - INFO - Extracted 573087 characters
+2025-12-19 17:28:32,808 - INFO - Saved extracted text to: extracted_content.txt
+2025-12-19 17:28:33,194 - INFO - Total tokens in document: 114946
+2025-12-19 17:28:33,216 - INFO - Created chunk 1: tokens 0 to 100000
+2025-12-19 17:28:33,223 - INFO - Created chunk 2: tokens 99500 to 114946
+2025-12-19 17:28:33,226 - INFO - Document split into 2 chunks
+2025-12-19 17:28:33,230 - INFO - Processing batch 1/2
+2025-12-19 17:28:34,632 - INFO - File saved: temp_uploads\file_806730bc-b470-413f-af69-af4582fa8314.pdf
+2025-12-19 17:28:34,635 - INFO - Calculated checksum: 1657411837
+2025-12-19 17:28:36,885 - INFO - Deleted temp file for duplicate request: temp_uploads\file_806730bc-b470-413f-af69-af4582fa8314.pdf
+2025-12-19 17:28:36,888 - INFO - Duplicate in-progress record found: 12e9303c-d885-439b-8c49-afe067bb269d
+2025-12-19 17:29:10,894 - INFO - Disposing async engine.
+2025-12-19 17:29:10,900 - INFO - Deleted temp file: temp_uploads\file_9c03dd92-d6f2-4165-8171-68efa2cdaa40.pdf
+2025-12-19 17:29:11,242 - INFO - Database client disposed
+2025-12-19 17:29:11,246 - INFO - S3 client closed
+2025-12-19 17:40:38,412 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-19 17:40:45,820 - INFO - Async database connection test successful.
+2025-12-19 17:40:45,822 - INFO - Database connection established
+2025-12-19 17:40:46,405 - INFO - S3 client initialized
+2025-12-19 17:47:22,222 - INFO - Disposing async engine.
+2025-12-19 17:47:22,526 - INFO - Database client disposed
+2025-12-19 17:47:22,527 - INFO - S3 client closed
+2025-12-19 17:48:24,378 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-19 17:48:31,666 - INFO - Async database connection test successful.
+2025-12-19 17:48:31,668 - INFO - Database connection established
+2025-12-19 17:48:32,171 - INFO - S3 client initialized
+2025-12-19 17:51:31,719 - INFO - File saved: temp_uploads\file_8208cfba-1a98-494a-a11e-47d1184cf2ef.pdf
+2025-12-19 17:51:31,723 - INFO - Calculated checksum: 1657411837
+2025-12-19 17:51:34,514 - INFO - Deleted temp file for duplicate request: temp_uploads\file_8208cfba-1a98-494a-a11e-47d1184cf2ef.pdf
+2025-12-19 17:51:34,517 - INFO - Duplicate in-progress record found: 12e9303c-d885-439b-8c49-afe067bb269d
+2025-12-19 17:53:24,169 - INFO - Disposing async engine.
+2025-12-19 17:53:24,476 - INFO - Database client disposed
+2025-12-19 17:53:24,479 - INFO - S3 client closed
+2025-12-19 20:00:46,344 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-19 20:00:54,792 - INFO - Async database connection test successful.
+2025-12-19 20:00:54,792 - INFO - Database connection established
+2025-12-19 20:00:55,205 - INFO - S3 client initialized
+2025-12-19 22:12:39,972 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-19 22:12:47,382 - INFO - Async database connection test successful.
+2025-12-19 22:12:47,383 - INFO - Database connection established
+2025-12-19 22:12:48,115 - INFO - S3 client initialized
+2025-12-19 22:19:06,564 - INFO - File saved: temp_uploads\file_9892b2d7-9d5c-4b61-9d2e-acb9129e57dc.pdf
+2025-12-19 22:19:06,567 - INFO - Calculated checksum: 1657411837
+2025-12-19 22:19:09,242 - INFO - Deleted temp file for duplicate request: temp_uploads\file_9892b2d7-9d5c-4b61-9d2e-acb9129e57dc.pdf
+2025-12-19 22:19:09,247 - INFO - Duplicate in-progress record found: 12e9303c-d885-439b-8c49-afe067bb269d
+2025-12-29 19:07:12,010 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-29 19:07:19,437 - INFO - Async database connection test successful.
+2025-12-29 19:07:19,438 - INFO - Database connection established
+2025-12-29 19:07:22,353 - INFO - S3 client initialized
+2025-12-29 19:09:13,041 - INFO - File saved: temp_uploads\file_9aaa4cb8-b256-45d6-8718-e4431bc2e4f0.txt
+2025-12-29 19:09:13,048 - INFO - Calculated checksum: 4137070156
+2025-12-29 19:09:19,026 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_9aaa4cb8-b256-45d6-8718-e4431bc2e4f0.txt
+2025-12-29 19:09:20,485 - INFO - Initial record saved for request_id: c68a51fa-d325-42ef-8192-141a7083befd
+2025-12-29 19:09:20,486 - INFO - Request accepted with request_id: c68a51fa-d325-42ef-8192-141a7083befd
+2025-12-29 19:09:20,489 - INFO - Starting background processing for request_id: c68a51fa-d325-42ef-8192-141a7083befd
+2025-12-29 19:09:21,942 - INFO - Record updated for request_id: c68a51fa-d325-42ef-8192-141a7083befd, status: inprogress
+2025-12-29 19:09:24,105 - INFO - Processing: temp_uploads\file_9aaa4cb8-b256-45d6-8718-e4431bc2e4f0.txt
+2025-12-29 19:09:24,225 - INFO - Batch 1/1
+2025-12-29 19:09:28,080 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-12-29 19:09:28,085 - ERROR - API Error: Error code: 403 - {'error': {'message': 'Project `proj_hDvUfaRoq4JhUl1qmUfnwNXR` does not have access to model `gpt-4o`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-12-29 19:09:29,259 - INFO - Record updated for request_id: c68a51fa-d325-42ef-8192-141a7083befd, status: failed
+2025-12-29 19:09:29,260 - INFO - Background processing completed for request_id: c68a51fa-d325-42ef-8192-141a7083befd
+2025-12-29 19:09:29,263 - INFO - Deleted temp file: temp_uploads\file_9aaa4cb8-b256-45d6-8718-e4431bc2e4f0.txt
+2025-12-29 19:10:48,841 - INFO - Disposing async engine.
+2025-12-29 19:10:49,140 - INFO - Database client disposed
+2025-12-29 19:10:49,147 - INFO - S3 client closed
+2025-12-29 19:11:09,000 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-29 19:11:17,408 - INFO - Async database connection test successful.
+2025-12-29 19:11:17,411 - INFO - Database connection established
+2025-12-29 19:11:18,240 - INFO - S3 client initialized
+2025-12-29 19:11:38,090 - INFO - File saved: temp_uploads\file_ab10609f-39c5-481e-b0ca-31fc87269682.txt
+2025-12-29 19:11:38,092 - INFO - Calculated checksum: 4137070156
+2025-12-29 19:11:44,797 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_ab10609f-39c5-481e-b0ca-31fc87269682.txt
+2025-12-29 19:11:46,435 - INFO - Initial record saved for request_id: 815408f7-fad9-4c2e-acaf-3f8ccba88541
+2025-12-29 19:11:46,437 - INFO - Request accepted with request_id: 815408f7-fad9-4c2e-acaf-3f8ccba88541
+2025-12-29 19:11:46,442 - INFO - Starting background processing for request_id: 815408f7-fad9-4c2e-acaf-3f8ccba88541
+2025-12-29 19:11:48,192 - INFO - Record updated for request_id: 815408f7-fad9-4c2e-acaf-3f8ccba88541, status: inprogress
+2025-12-29 19:11:50,557 - INFO - Processing: temp_uploads\file_ab10609f-39c5-481e-b0ca-31fc87269682.txt
+2025-12-29 19:11:50,596 - INFO - Batch 1/1
+2025-12-29 19:11:54,310 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-12-29 19:11:54,314 - ERROR - API Error: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-12-29 19:11:55,500 - INFO - Record updated for request_id: 815408f7-fad9-4c2e-acaf-3f8ccba88541, status: failed
+2025-12-29 19:11:55,504 - INFO - Background processing completed for request_id: 815408f7-fad9-4c2e-acaf-3f8ccba88541
+2025-12-29 19:11:55,508 - INFO - Deleted temp file: temp_uploads\file_ab10609f-39c5-481e-b0ca-31fc87269682.txt
+2025-12-29 19:12:37,746 - INFO - Disposing async engine.
+2025-12-29 19:12:38,054 - INFO - Database client disposed
+2025-12-29 19:12:38,060 - INFO - S3 client closed
+2025-12-29 19:16:28,076 - INFO - AsyncDatabaseClient initialized for nextgendb
+2025-12-29 19:16:35,378 - INFO - Async database connection test successful.
+2025-12-29 19:16:35,380 - INFO - Database connection established
+2025-12-29 19:16:36,044 - INFO - S3 client initialized
+2025-12-29 19:17:36,624 - INFO - File saved: temp_uploads\file_aeaa77f9-a474-445e-955c-9d0606da3015.txt
+2025-12-29 19:17:36,630 - INFO - Calculated checksum: 4137070156
+2025-12-29 19:17:43,815 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_aeaa77f9-a474-445e-955c-9d0606da3015.txt
+2025-12-29 19:17:45,440 - INFO - Initial record saved for request_id: 6316d5c9-71e2-4936-8cdd-e8ea0318e8e3
+2025-12-29 19:17:45,441 - INFO - Request accepted with request_id: 6316d5c9-71e2-4936-8cdd-e8ea0318e8e3
+2025-12-29 19:17:45,443 - INFO - Starting background processing for request_id: 6316d5c9-71e2-4936-8cdd-e8ea0318e8e3
+2025-12-29 19:17:46,950 - INFO - Record updated for request_id: 6316d5c9-71e2-4936-8cdd-e8ea0318e8e3, status: inprogress
+2025-12-29 19:17:48,960 - INFO - Processing: temp_uploads\file_aeaa77f9-a474-445e-955c-9d0606da3015.txt
+2025-12-29 19:17:49,007 - INFO - Batch 1/1
+2025-12-29 19:18:37,519 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-29 19:18:38,829 - INFO - Record updated for request_id: 6316d5c9-71e2-4936-8cdd-e8ea0318e8e3, status: success
+2025-12-29 19:18:38,830 - INFO - Background processing completed for request_id: 6316d5c9-71e2-4936-8cdd-e8ea0318e8e3
+2025-12-29 19:18:38,833 - INFO - Deleted temp file: temp_uploads\file_aeaa77f9-a474-445e-955c-9d0606da3015.txt
+2025-12-29 19:20:34,057 - INFO - File saved: temp_uploads\file_e95aacd4-bd84-4104-84a9-cd52222ebcb6.pdf
+2025-12-29 19:20:34,066 - INFO - Calculated checksum: 1657411837
+2025-12-29 19:20:35,377 - INFO - Deleted temp file for duplicate request: temp_uploads\file_e95aacd4-bd84-4104-84a9-cd52222ebcb6.pdf
+2025-12-29 19:20:35,384 - INFO - Duplicate in-progress record found: 12e9303c-d885-439b-8c49-afe067bb269d
+2025-12-29 19:24:55,129 - INFO - File saved: temp_uploads\file_be92e7d2-2163-45b6-8bc6-41c051eda008.pdf
+2025-12-29 19:24:55,133 - INFO - Calculated checksum: 1657411837
+2025-12-29 19:25:00,096 - INFO - File uploaded to S3: s3://nextgenainonprod/provider_contract_files/file_be92e7d2-2163-45b6-8bc6-41c051eda008.pdf
+2025-12-29 19:25:01,839 - INFO - Initial record saved for request_id: b2e55c82-96eb-485f-8907-d5104186be5f
+2025-12-29 19:25:01,842 - INFO - Request accepted with request_id: b2e55c82-96eb-485f-8907-d5104186be5f
+2025-12-29 19:25:01,846 - INFO - Starting background processing for request_id: b2e55c82-96eb-485f-8907-d5104186be5f
+2025-12-29 19:25:03,049 - INFO - Record updated for request_id: b2e55c82-96eb-485f-8907-d5104186be5f, status: inprogress
+2025-12-29 19:25:04,260 - INFO - Processing: temp_uploads\file_be92e7d2-2163-45b6-8bc6-41c051eda008.pdf
+2025-12-29 19:25:06,997 - INFO - Batch 1/2
+2025-12-29 19:28:38,119 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-29 19:28:38,137 - INFO - Batch 2/2
+2025-12-29 19:30:28,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-29 19:30:30,299 - INFO - Record updated for request_id: b2e55c82-96eb-485f-8907-d5104186be5f, status: success
+2025-12-29 19:30:30,301 - INFO - Background processing completed for request_id: b2e55c82-96eb-485f-8907-d5104186be5f
+2025-12-29 19:30:30,305 - INFO - Deleted temp file: temp_uploads\file_be92e7d2-2163-45b6-8bc6-41c051eda008.pdf
+2025-12-29 22:49:29,834 - INFO - Disposing async engine.
+2025-12-29 22:49:30,266 - INFO - Database client disposed
+2025-12-29 22:49:30,323 - INFO - S3 client closed
+2026-01-01 11:31:26,159 - INFO - Loading schema from: contract_model.schema.json
+2026-01-01 11:31:26,211 - INFO - AsyncDatabaseClient initialized for your-database-name
+2026-01-01 11:31:26,233 - WARNING - Async database connection test failed: password authentication failed for user "your-username"
+2026-01-01 11:31:26,233 - ERROR - Database connection failed
+2026-01-01 11:31:26,234 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-01 11:38:34,588 - INFO - Loading schema from: contract_model.schema.json
+2026-01-01 11:38:34,640 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-01 11:38:34,664 - INFO - Async database connection test successful.
+2026-01-01 11:38:34,665 - INFO - Database connection established
+2026-01-01 11:38:34,665 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-01 12:14:43,020 - INFO - Loading schema from: contract_model.schema.json
+2026-01-01 12:14:43,111 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-01 12:14:43,137 - INFO - Async database connection test successful.
+2026-01-01 12:14:43,138 - INFO - Database connection established
+2026-01-01 12:14:43,138 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-01 12:15:07,018 - ERROR - Database error: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $1: '324hhgofwsg' (invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11)
+[SQL: SELECT request_id, metadata, status, extracted_data, message, errors, created_at, updated_at FROM public.extraction_tracker WHERE request_id = $1]
+[parameters: ('324hhgofwsg',)]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 251, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 153, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/codecs/uuid.pyx", line 16, in asyncpg.pgproto.pgproto.uuid_encode
+  File "asyncpg/pgproto/uuid.pyx", line 88, in asyncpg.pgproto.pgproto.pg_uuid_bytes_from_str
+ValueError: invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 184, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $1: '324hhgofwsg' (invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.Error: <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $1: '324hhgofwsg' (invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/db_client.py", line 75, in _raw_connection
+    yield conn
+  File "/app/utils/db_client.py", line 85, in execute_query
+    result = await conn.exec_driver_sql(query, params or ())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/ext/asyncio/engine.py", line 508, in exec_driver_sql
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1779, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.DBAPIError: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $1: '324hhgofwsg' (invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11)
+[SQL: SELECT request_id, metadata, status, extracted_data, message, errors, created_at, updated_at FROM public.extraction_tracker WHERE request_id = $1]
+[parameters: ('324hhgofwsg',)]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2026-01-01 12:15:13,832 - ERROR - Database error: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $1: '324hhgofwsg' (invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11)
+[SQL: SELECT request_id, metadata, status, extracted_data, message, errors, created_at, updated_at FROM public.extraction_tracker WHERE request_id = $1]
+[parameters: ('324hhgofwsg',)]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 251, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 153, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/codecs/uuid.pyx", line 16, in asyncpg.pgproto.pgproto.uuid_encode
+  File "asyncpg/pgproto/uuid.pyx", line 88, in asyncpg.pgproto.pgproto.pg_uuid_bytes_from_str
+ValueError: invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 184, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $1: '324hhgofwsg' (invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.Error: <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $1: '324hhgofwsg' (invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/db_client.py", line 75, in _raw_connection
+    yield conn
+  File "/app/utils/db_client.py", line 85, in execute_query
+    result = await conn.exec_driver_sql(query, params or ())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/ext/asyncio/engine.py", line 508, in exec_driver_sql
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1779, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.DBAPIError: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $1: '324hhgofwsg' (invalid UUID '324hhgofwsg': length must be between 32..36 characters, got 11)
+[SQL: SELECT request_id, metadata, status, extracted_data, message, errors, created_at, updated_at FROM public.extraction_tracker WHERE request_id = $1]
+[parameters: ('324hhgofwsg',)]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2026-01-01 12:19:42,514 - INFO - Loading schema from: contract_model.schema.json
+2026-01-01 12:19:42,581 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-01 12:19:42,612 - INFO - Async database connection test successful.
+2026-01-01 12:19:42,613 - INFO - Database connection established
+2026-01-01 12:19:42,613 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-01 15:31:53,357 - INFO - Starting background processing for feb82586-ee13-4d0c-bc14-15dd7f4d5e5a
+2026-01-01 15:32:04,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-01-01 15:32:04,499 - ERROR - Extraction error: Error code: 400 - {'error': {'message': "Invalid schema for response_format 'ContractModel': In context=('properties', 'encounter_data_elements', 'items'), schema must have a 'type' key.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2026-01-01 15:32:04,507 - ERROR - Database error: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.StringDataRightTruncationError'>: value too long for type character varying(255)
+[SQL: UPDATE public.extraction_tracker SET status = $1, updated_at = $2, message = $3, errors = $4 WHERE request_id = $5]
+[parameters: ('failed', datetime.datetime(2026, 1, 1, 15, 32, 4, 499969), 'Error code: 400 - {\'error\': {\'message\': "Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encounter_data_elements\', \'items\'), schema must have a \'type\' key.", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}', '{"error": "Error code: 400 - {\'error\': {\'message\': \\"Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encount ... (7 characters truncated) ... _elements\', \'items\'), schema must have a \'type\' key.\\", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}"}', 'feb82586-ee13-4d0c-bc14-15dd7f4d5e5a')]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 205, in bind_execute
+asyncpg.exceptions.StringDataRightTruncationError: value too long for type character varying(255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.Error: <class 'asyncpg.exceptions.StringDataRightTruncationError'>: value too long for type character varying(255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/db_client.py", line 75, in _raw_connection
+    yield conn
+  File "/app/utils/db_client.py", line 91, in execute_non_query
+    result = await conn.exec_driver_sql(query, params or ())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/ext/asyncio/engine.py", line 508, in exec_driver_sql
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1779, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.DBAPIError: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.StringDataRightTruncationError'>: value too long for type character varying(255)
+[SQL: UPDATE public.extraction_tracker SET status = $1, updated_at = $2, message = $3, errors = $4 WHERE request_id = $5]
+[parameters: ('failed', datetime.datetime(2026, 1, 1, 15, 32, 4, 499969), 'Error code: 400 - {\'error\': {\'message\': "Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encounter_data_elements\', \'items\'), schema must have a \'type\' key.", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}', '{"error": "Error code: 400 - {\'error\': {\'message\': \\"Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encount ... (7 characters truncated) ... _elements\', \'items\'), schema must have a \'type\' key.\\", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}"}', 'feb82586-ee13-4d0c-bc14-15dd7f4d5e5a')]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2026-01-01 15:32:04,523 - ERROR - Failed to update tracker: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.StringDataRightTruncationError'>: value too long for type character varying(255)
+[SQL: UPDATE public.extraction_tracker SET status = $1, updated_at = $2, message = $3, errors = $4 WHERE request_id = $5]
+[parameters: ('failed', datetime.datetime(2026, 1, 1, 15, 32, 4, 499969), 'Error code: 400 - {\'error\': {\'message\': "Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encounter_data_elements\', \'items\'), schema must have a \'type\' key.", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}', '{"error": "Error code: 400 - {\'error\': {\'message\': \\"Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encount ... (7 characters truncated) ... _elements\', \'items\'), schema must have a \'type\' key.\\", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}"}', 'feb82586-ee13-4d0c-bc14-15dd7f4d5e5a')]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2026-01-01 15:45:42,010 - INFO - Starting background processing for 9336634e-702b-419f-8839-a77a27121fd5
+2026-01-01 15:45:43,032 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-01-01 15:45:43,037 - ERROR - Extraction error: Error code: 400 - {'error': {'message': "Invalid schema for response_format 'ContractModel': In context=('properties', 'encounter_data_elements', 'items'), schema must have a 'type' key.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2026-01-01 15:45:43,044 - ERROR - Database error: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.StringDataRightTruncationError'>: value too long for type character varying(255)
+[SQL: UPDATE public.extraction_tracker SET status = $1, updated_at = $2, message = $3, errors = $4 WHERE request_id = $5]
+[parameters: ('failed', datetime.datetime(2026, 1, 1, 15, 45, 43, 39506), 'Error code: 400 - {\'error\': {\'message\': "Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encounter_data_elements\', \'items\'), schema must have a \'type\' key.", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}', '{"error": "Error code: 400 - {\'error\': {\'message\': \\"Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encount ... (7 characters truncated) ... _elements\', \'items\'), schema must have a \'type\' key.\\", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}"}', '9336634e-702b-419f-8839-a77a27121fd5')]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 205, in bind_execute
+asyncpg.exceptions.StringDataRightTruncationError: value too long for type character varying(255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.Error: <class 'asyncpg.exceptions.StringDataRightTruncationError'>: value too long for type character varying(255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/db_client.py", line 75, in _raw_connection
+    yield conn
+  File "/app/utils/db_client.py", line 91, in execute_non_query
+    result = await conn.exec_driver_sql(query, params or ())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/ext/asyncio/engine.py", line 508, in exec_driver_sql
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1779, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "/usr/local/lib/python3.11/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.DBAPIError: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.StringDataRightTruncationError'>: value too long for type character varying(255)
+[SQL: UPDATE public.extraction_tracker SET status = $1, updated_at = $2, message = $3, errors = $4 WHERE request_id = $5]
+[parameters: ('failed', datetime.datetime(2026, 1, 1, 15, 45, 43, 39506), 'Error code: 400 - {\'error\': {\'message\': "Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encounter_data_elements\', \'items\'), schema must have a \'type\' key.", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}', '{"error": "Error code: 400 - {\'error\': {\'message\': \\"Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encount ... (7 characters truncated) ... _elements\', \'items\'), schema must have a \'type\' key.\\", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}"}', '9336634e-702b-419f-8839-a77a27121fd5')]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2026-01-01 15:45:43,055 - ERROR - Failed to update tracker: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.StringDataRightTruncationError'>: value too long for type character varying(255)
+[SQL: UPDATE public.extraction_tracker SET status = $1, updated_at = $2, message = $3, errors = $4 WHERE request_id = $5]
+[parameters: ('failed', datetime.datetime(2026, 1, 1, 15, 45, 43, 39506), 'Error code: 400 - {\'error\': {\'message\': "Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encounter_data_elements\', \'items\'), schema must have a \'type\' key.", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}', '{"error": "Error code: 400 - {\'error\': {\'message\': \\"Invalid schema for response_format \'ContractModel\': In context=(\'properties\', \'encount ... (7 characters truncated) ... _elements\', \'items\'), schema must have a \'type\' key.\\", \'type\': \'invalid_request_error\', \'param\': \'response_format\', \'code\': None}}"}', '9336634e-702b-419f-8839-a77a27121fd5')]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2026-01-01 15:50:59,181 - INFO - Loading schema from: contract_model.schema.json
+2026-01-01 15:50:59,238 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-01 15:50:59,266 - INFO - Async database connection test successful.
+2026-01-01 15:50:59,267 - INFO - Database connection established
+2026-01-01 15:50:59,268 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-01 16:03:00,669 - INFO - Loading schema from: contract_model.schema.json
+2026-01-01 16:03:00,734 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-01 16:03:00,763 - INFO - Async database connection test successful.
+2026-01-01 16:03:00,764 - INFO - Database connection established
+2026-01-01 16:03:00,764 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-01 16:03:47,261 - INFO - Loading schema from: contract_model.schema.json
+2026-01-01 16:03:47,348 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-01 16:03:47,372 - INFO - Async database connection test successful.
+2026-01-01 16:03:47,373 - INFO - Database connection established
+2026-01-01 16:03:47,374 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 08:13:03,534 - INFO - Loading schema from: contract_model.schema.json
+2026-01-02 08:13:03,620 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 08:13:03,726 - INFO - Async database connection test successful.
+2026-01-02 08:13:03,727 - INFO - Database connection established
+2026-01-02 08:13:03,729 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 08:22:56,472 - INFO - Loading schema from: contract_model.schema.json
+2026-01-02 08:22:56,528 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 08:22:56,553 - INFO - Async database connection test successful.
+2026-01-02 08:22:56,554 - INFO - Database connection established
+2026-01-02 08:22:56,555 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 08:24:28,258 - INFO - Loading schema from: contract_model.schema.json
+2026-01-02 08:24:28,317 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 08:24:28,344 - INFO - Async database connection test successful.
+2026-01-02 08:24:28,345 - INFO - Database connection established
+2026-01-02 08:24:28,345 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 08:24:45,024 - INFO - Starting background processing for 9918ca75-1c87-46a4-b501-b0f0e4a7b4cb
+2026-01-02 08:27:39,162 - INFO - Starting background processing for 49ef973a-0f5e-4c05-aa36-1dbef1364bb5
+2026-01-02 08:28:22,094 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 08:29:46,389 - INFO - Loading schema from: contract_model.schema.json
+2026-01-02 08:29:46,462 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 08:29:46,484 - INFO - Async database connection test successful.
+2026-01-02 08:29:46,485 - INFO - Database connection established
+2026-01-02 08:29:46,485 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 08:33:06,560 - INFO - Loading schema from: contract_model.schema.json
+2026-01-02 08:33:06,611 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 08:33:06,638 - INFO - Async database connection test successful.
+2026-01-02 08:33:06,639 - INFO - Database connection established
+2026-01-02 08:33:06,639 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 08:33:18,491 - INFO - Starting background processing for 95752de9-a799-45b7-b864-37c3525da67c
+2026-01-02 08:33:18,492 - INFO - [95752de9-a799-45b7-b864-37c3525da67c] Updating tracker to INPROGRESS
+2026-01-02 08:33:18,498 - INFO - [95752de9-a799-45b7-b864-37c3525da67c] Tracker updated successfully
+2026-01-02 08:33:18,498 - INFO - [95752de9-a799-45b7-b864-37c3525da67c] Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 08:34:25,938 - INFO - [95752de9-a799-45b7-b864-37c3525da67c] GenericDataExtractor initialized successfully
+2026-01-02 08:34:25,939 - INFO - [95752de9-a799-45b7-b864-37c3525da67c] Starting file processing: temp_uploads/296d1881-621f-4183-bd18-c8c1b690d250.pdf
+2026-01-02 08:34:25,939 - INFO - Extracting text from file: temp_uploads/296d1881-621f-4183-bd18-c8c1b690d250.pdf
+2026-01-02 08:34:27,060 - INFO - Text extracted successfully - Length: 573087 chars, Tokens: 114946
+2026-01-02 08:34:27,060 - INFO - Chunking text with max_tokens=100000, overlap=500
+2026-01-02 08:34:27,125 - INFO - Document split into 2 chunk(s)
+2026-01-02 08:34:27,174 - INFO - Processing chunk 1/2 (100000 tokens)...
+2026-01-02 09:56:47,951 - INFO - Loading schema from: contract_model.schema.json
+2026-01-02 09:56:48,016 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 09:56:48,056 - INFO - Async database connection test successful.
+2026-01-02 09:56:48,057 - INFO - Database connection established
+2026-01-02 09:56:48,057 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 09:56:48,058 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 09:57:42,191 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 10:00:24,163 - INFO - Loading schema from: contract_model.schema.json
+2026-01-02 10:00:24,230 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 10:00:24,263 - INFO - Async database connection test successful.
+2026-01-02 10:00:24,264 - INFO - Database connection established
+2026-01-02 10:00:24,264 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 10:00:24,265 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 10:00:49,047 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 10:00:54,864 - INFO - Starting background processing for 51b8b7f8-135e-4abc-82c8-e5d3ff1071ed
+2026-01-02 10:00:54,864 - INFO - [51b8b7f8-135e-4abc-82c8-e5d3ff1071ed] Updating tracker to INPROGRESS
+2026-01-02 10:00:54,872 - INFO - [51b8b7f8-135e-4abc-82c8-e5d3ff1071ed] Tracker updated successfully
+2026-01-02 10:00:54,873 - INFO - [51b8b7f8-135e-4abc-82c8-e5d3ff1071ed] Starting file processing: temp_uploads/0877ee79-8a4a-45a7-add7-d2fbf1ee1a78.docx
+2026-01-02 10:00:54,873 - INFO - Extracting text from file: temp_uploads/0877ee79-8a4a-45a7-add7-d2fbf1ee1a78.docx
+2026-01-02 10:00:55,370 - INFO - Text extracted successfully - Length: 536464 chars, Tokens: 102339
+2026-01-02 10:00:55,371 - INFO - Chunking text with max_tokens=100000, overlap=500
+2026-01-02 10:00:55,432 - INFO - Document split into 2 chunk(s)
+2026-01-02 10:00:55,496 - INFO - Processing chunk 1/2 (100000 tokens)...
+2026-01-02 10:04:08,870 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 10:04:08,907 - INFO - Chunk 1/2 processed successfully
+2026-01-02 10:04:08,914 - INFO - Processing chunk 2/2 (2839 tokens)...
+2026-01-02 10:07:11,691 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 10:07:11,816 - INFO - Chunk 2/2 processed successfully
+2026-01-02 10:07:11,817 - INFO - All 2 chunks processed successfully
+2026-01-02 10:07:11,818 - INFO - [51b8b7f8-135e-4abc-82c8-e5d3ff1071ed] File processing completed with status: success
+2026-01-02 10:07:11,819 - INFO - [51b8b7f8-135e-4abc-82c8-e5d3ff1071ed] Extraction successful, updating tracker to SUCCESS
+2026-01-02 10:07:11,838 - INFO - [51b8b7f8-135e-4abc-82c8-e5d3ff1071ed] Successfully updated tracker with extracted data
+2026-01-02 10:07:11,839 - INFO - [51b8b7f8-135e-4abc-82c8-e5d3ff1071ed] Cleanup started
+2026-01-02 10:07:11,842 - INFO - [51b8b7f8-135e-4abc-82c8-e5d3ff1071ed] Removing temporary file: temp_uploads/0877ee79-8a4a-45a7-add7-d2fbf1ee1a78.docx
+2026-01-02 10:07:11,847 - INFO - [51b8b7f8-135e-4abc-82c8-e5d3ff1071ed] Background processing completed
+2026-01-02 12:08:23,953 - INFO - Starting background processing for 65655826-2790-47e5-84cc-9c51681d14b9
+2026-01-02 12:08:23,954 - INFO - [65655826-2790-47e5-84cc-9c51681d14b9] Updating tracker to INPROGRESS
+2026-01-02 12:08:23,961 - INFO - [65655826-2790-47e5-84cc-9c51681d14b9] Tracker updated successfully
+2026-01-02 12:08:23,962 - INFO - [65655826-2790-47e5-84cc-9c51681d14b9] Starting file processing: temp_uploads/1343916d-2fe3-4fdc-ab69-3ac636ab3655.pdf
+2026-01-02 12:08:23,962 - INFO - Extracting text from file: temp_uploads/1343916d-2fe3-4fdc-ab69-3ac636ab3655.pdf
+2026-01-02 12:08:24,128 - WARNING - No text content found in file: temp_uploads/1343916d-2fe3-4fdc-ab69-3ac636ab3655.pdf
+2026-01-02 12:08:24,128 - INFO - [65655826-2790-47e5-84cc-9c51681d14b9] File processing completed with status: failed
+2026-01-02 12:08:24,129 - WARNING - [65655826-2790-47e5-84cc-9c51681d14b9] Extraction failed: No text content found
+2026-01-02 12:08:24,135 - INFO - [65655826-2790-47e5-84cc-9c51681d14b9] Tracker updated with failure status
+2026-01-02 12:08:24,136 - INFO - [65655826-2790-47e5-84cc-9c51681d14b9] Cleanup started
+2026-01-02 12:08:24,139 - INFO - [65655826-2790-47e5-84cc-9c51681d14b9] Removing temporary file: temp_uploads/1343916d-2fe3-4fdc-ab69-3ac636ab3655.pdf
+2026-01-02 12:08:24,142 - INFO - [65655826-2790-47e5-84cc-9c51681d14b9] Background processing completed
+2026-01-02 12:21:30,608 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 12:21:30,671 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 12:21:30,697 - INFO - Async database connection test successful.
+2026-01-02 12:21:30,698 - INFO - Database connection established
+2026-01-02 12:21:30,699 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 12:21:30,699 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 12:22:01,593 - WARNING - Tesseract OCR (pytesseract) is not installed. Scanned PDFs cannot be processed.
+2026-01-02 12:22:01,594 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 12:23:52,050 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 12:23:52,107 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 12:23:52,134 - INFO - Async database connection test successful.
+2026-01-02 12:23:52,135 - INFO - Database connection established
+2026-01-02 12:23:52,136 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 12:23:52,136 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 12:31:22,714 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 12:31:22,775 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 12:31:22,801 - INFO - Async database connection test successful.
+2026-01-02 12:31:22,802 - INFO - Database connection established
+2026-01-02 12:31:22,802 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 12:31:22,802 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 12:31:29,240 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 12:31:41,630 - INFO - Starting background processing for f8c34831-5bf3-4062-87bc-a6b7fa1a787c
+2026-01-02 12:31:41,630 - INFO - [f8c34831-5bf3-4062-87bc-a6b7fa1a787c] Updating tracker to INPROGRESS
+2026-01-02 12:31:41,637 - INFO - [f8c34831-5bf3-4062-87bc-a6b7fa1a787c] Tracker updated successfully
+2026-01-02 12:31:41,638 - INFO - [f8c34831-5bf3-4062-87bc-a6b7fa1a787c] Starting file processing: temp_uploads/4687919c-c0bb-40df-a0c9-65d897195c77.pdf
+2026-01-02 12:31:41,638 - INFO - Extracting text from file: temp_uploads/4687919c-c0bb-40df-a0c9-65d897195c77.pdf
+2026-01-02 12:31:41,752 - INFO - PDF extraction stats: 5 pages, 0 chars, avg 0.00 chars/page
+2026-01-02 12:31:41,753 - INFO - Average characters per page (0.00) is below threshold (100). Assuming scanned PDF.
+2026-01-02 12:31:41,753 - INFO - Performing OCR on page 1/5
+2026-01-02 12:31:41,948 - INFO - Performing OCR on page 2/5
+2026-01-02 12:31:42,391 - INFO - Performing OCR on page 3/5
+2026-01-02 12:31:43,016 - INFO - Performing OCR on page 4/5
+2026-01-02 12:31:43,379 - INFO - Performing OCR on page 5/5
+2026-01-02 12:31:43,635 - INFO - Text extracted successfully - Length: 4540 chars, Tokens: 947
+2026-01-02 12:31:43,636 - INFO - Chunking text with max_tokens=100000, overlap=500
+2026-01-02 12:31:43,637 - INFO - Document split into 1 chunk(s)
+2026-01-02 12:31:43,637 - INFO - Processing chunk 1/1 (947 tokens)...
+2026-01-02 12:31:45,623 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-01-02 12:31:45,624 - ERROR - Extraction error: Error code: 400 - {'error': {'message': "Invalid schema for response_format 'ContractModel': In context=('properties', 'part_d_tier_structure'), 'additionalProperties' is required to be supplied and to be false.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2026-01-02 12:31:45,625 - ERROR - Chunk 1/1 failed: Error code: 400 - {'error': {'message': "Invalid schema for response_format 'ContractModel': In context=('properties', 'part_d_tier_structure'), 'additionalProperties' is required to be supplied and to be false.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2026-01-02 12:31:45,625 - INFO - [f8c34831-5bf3-4062-87bc-a6b7fa1a787c] File processing completed with status: failed
+2026-01-02 12:31:45,626 - WARNING - [f8c34831-5bf3-4062-87bc-a6b7fa1a787c] Extraction failed: Error code: 400 - {'error': {'message': "Invalid schema for response_format 'ContractModel': In context=('properties', 'part_d_tier_structure'), 'additionalProperties' is required to be supplied and to be false.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2026-01-02 12:31:45,632 - INFO - [f8c34831-5bf3-4062-87bc-a6b7fa1a787c] Tracker updated with failure status
+2026-01-02 12:31:45,633 - INFO - [f8c34831-5bf3-4062-87bc-a6b7fa1a787c] Cleanup started
+2026-01-02 12:31:45,635 - INFO - [f8c34831-5bf3-4062-87bc-a6b7fa1a787c] Removing temporary file: temp_uploads/4687919c-c0bb-40df-a0c9-65d897195c77.pdf
+2026-01-02 12:31:45,638 - INFO - [f8c34831-5bf3-4062-87bc-a6b7fa1a787c] Background processing completed
+2026-01-02 12:34:32,184 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 12:34:32,241 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 12:34:32,265 - INFO - Async database connection test successful.
+2026-01-02 12:34:32,265 - INFO - Database connection established
+2026-01-02 12:34:32,266 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 12:34:32,267 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 12:34:32,536 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 12:34:39,159 - INFO - Existing record with status 'failed' found. Starting new extraction attempt.
+2026-01-02 12:34:39,182 - INFO - Starting background processing for 3dd3dce1-8f16-4867-82f6-493de27d4df5
+2026-01-02 12:34:39,183 - INFO - [3dd3dce1-8f16-4867-82f6-493de27d4df5] Updating tracker to INPROGRESS
+2026-01-02 12:34:39,192 - INFO - [3dd3dce1-8f16-4867-82f6-493de27d4df5] Tracker updated successfully
+2026-01-02 12:34:39,194 - INFO - [3dd3dce1-8f16-4867-82f6-493de27d4df5] Starting file processing: temp_uploads/75e86f91-2d9b-44dc-a022-166817b48857.pdf
+2026-01-02 12:34:39,199 - INFO - Extracting text from file: temp_uploads/75e86f91-2d9b-44dc-a022-166817b48857.pdf
+2026-01-02 12:34:39,325 - INFO - PDF extraction stats: 5 pages, 0 chars, avg 0.00 chars/page
+2026-01-02 12:34:39,325 - INFO - Average characters per page (0.00) is below threshold (100). Assuming scanned PDF.
+2026-01-02 12:34:39,326 - INFO - Performing OCR on page 1/5
+2026-01-02 12:34:39,531 - INFO - OCR completed for page 1/5: 2025
+
+Your
+Medicare
+Benefits
+
+
+2026-01-02 12:34:39,532 - INFO - Performing OCR on page 2/5
+2026-01-02 12:34:40,005 - INFO - OCR completed for page 2/5: About This Booklet
+
+Original Medicare includes Part A (Hospital Insurance) and Part B (Medical Insurance).
+This booklet describes many, but not all, of the health care items and services that
+Original Medicare covers. It includes information on how and when you can get these
+benefits and how much you'll pay. Throughout the booklet, references to “doctors,”
+‘other health care providers,” and “suppliers” refer generally to providers who are
+enrolled in Medicare and accept assignment (described on page 4).
+
+This booklet primarily describes coverage under Original Medicare. If you have a
+Medicare Advantage Plan (Part C), another Medicare health plan, or both Medicare and
+Medicaic
+
++ You may be able to get other services and supplies that Original Medicare doesn't
+cover.
+
++ Your costs may be different.
++ Coverage rules (like how often you can get an item or service) might be different.
+
+For more information about specific costs and coverage information, contact your plan or
+state Medicaid agency. You can usually find your plan's contact information on your plan
+membership card. Visit Medicaid. gov/about-us/where-can-people-get-help-medicaid-
+chip/index to get the phone number for your state's Medicaid office,
+
+<s
+
+2026-01-02 12:34:40,006 - INFO - Performing OCR on page 3/5
+2026-01-02 12:34:40,641 - INFO - OCR completed for page 3/5: ‘About This Booklet
+
+Helpful terms to understani
+
+Benefit period:
+‘The way that Original Medicare measures your use of hospital and skilled nursing facility
+(SNF) services. A benefit period begins the day you're admitted as an inpatient in a
+hospital or SNF. The benefit period ends when you haven't received any inpatient hospital
+care (or skilled care in a SNF) for 60 days in a row. If you go into a hospital or SNF after
+‘one benefit period has ended, a new one begins. You must pay the inpatient hospital
+‘deductible for each benefit period. There's no limit to the number of benefit periods.
+
+Coinsurance:
+‘An amount you may be required to pay as your share of the cost for benefits after you
+pay any deductibles. Coinsurance is usually @ percentage (for example, 20%),
+
+‘Copayment:
+‘An amount you may be required to pay as your share of the cost for benefits after you
+pay any deductibles. A copayment is a fixed amount, like $30.
+
+Deductibi
+‘The amount you must pay for health care or prescriptions before Original Medicare,
+your Medicare Advantage Plan, your Medicare drug plan, or your other insurance begins
+to pay,
+
+Medically necessary:
+Health care services or supplies needed to diagnose or treat an illness, injury, condition,
+disease, or its symptoms and that meet accepted standards of medicine.
+
+Medicare Advantage Plan (Part C):
+A type of Medicare health plan offered by a private company that contracts with
+Medicare. Medicare Advantage Plans provide all of your Part A and Part 6 benefits, with 9
+few exclusions, for example, certain aspects of clinical trials which are covered by Original
+Medicare even though you're stil in the plan. Medicare Advantage Plans include:
+
++ Health Maintenance Organizations
++ Preferred Provider Organizations
+
++ Private Fee-for-Service Plans
+
++ Special Needs Plans
+
++ Medicare Medical Savings Account Plans
+
+IF you're enrolled in a Medicare Advantage Plan:
+
++ Most Medicare services are covered through the plan
+
++ Most Medicare services aren't paid for by Original Medicare
+
++ Most Medicare Advantage Plans offer prescription drug coverage
+
+2026-01-02 12:34:40,642 - INFO - Performing OCR on page 4/5
+2026-01-02 12:34:41,014 - INFO - OCR completed for page 4/5: 2 About This Booklet
+
+Medicare drug coverage (Part D):
+Optional benefits for prescription drugs available to all people with Medicare for an
+‘additional charge. This coverage Is offered by insurance companies and other private
+companies approved by Medicare,
+
+Medicare-approved amount:
+‘The payment amount that Original Medicare sets for @ covered service or item. When
+‘your provider accepts assignment, Medicare pays its share and you pay your share of
+‘that amount,
+
+Original Medicare:
+Original Medicare is a fee-for-service health plan that has 2 parts: Part A (Hospital
+Insurance) and Part 8 (Medical Insurance). After you pay a deductible, Medicare pays
+its share of the Medicare-approved amount, and you pay your share (coinsurance and
+deductibles).
+
+
+2026-01-02 12:34:41,015 - INFO - Performing OCR on page 5/5
+2026-01-02 12:34:41,276 - INFO - OCR completed for page 5/5: Section 1: Understanding Medicare Part A&Part8 3
+
+Section 1:
+
+Understanding Medicare
+Part A & Part B
+
+IF you have Original Medicare, you can get Medicare-covered services from any doctor
+Cor hospital that takes Medicare, anywhere in the USS.
+
+What are the parts of Original Medicare?
+
+Part A (Hospital Insurance) helps cover:
++ Inpatient hospital care
+
++ Skilled nursing facility care
+
++ Hospice care
+
++ Home health care
+
+
+2026-01-02 12:34:41,286 - INFO - Text extracted successfully - Length: 4540 chars, Tokens: 947
+2026-01-02 12:34:41,287 - INFO - Chunking text with max_tokens=100000, overlap=500
+2026-01-02 12:34:41,288 - INFO - Document split into 1 chunk(s)
+2026-01-02 12:34:41,289 - INFO - Processing chunk 1/1 (947 tokens)...
+2026-01-02 12:34:42,600 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-01-02 12:34:42,602 - ERROR - Extraction error: Error code: 400 - {'error': {'message': "Invalid schema for response_format 'ContractModel': In context=('properties', 'part_d_tier_structure'), 'additionalProperties' is required to be supplied and to be false.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2026-01-02 12:34:42,602 - ERROR - Chunk 1/1 failed: Error code: 400 - {'error': {'message': "Invalid schema for response_format 'ContractModel': In context=('properties', 'part_d_tier_structure'), 'additionalProperties' is required to be supplied and to be false.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2026-01-02 12:34:42,603 - INFO - [3dd3dce1-8f16-4867-82f6-493de27d4df5] File processing completed with status: failed
+2026-01-02 12:34:42,603 - WARNING - [3dd3dce1-8f16-4867-82f6-493de27d4df5] Extraction failed: Error code: 400 - {'error': {'message': "Invalid schema for response_format 'ContractModel': In context=('properties', 'part_d_tier_structure'), 'additionalProperties' is required to be supplied and to be false.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2026-01-02 12:34:42,610 - INFO - [3dd3dce1-8f16-4867-82f6-493de27d4df5] Tracker updated with failure status
+2026-01-02 12:34:42,610 - INFO - [3dd3dce1-8f16-4867-82f6-493de27d4df5] Cleanup started
+2026-01-02 12:34:42,612 - INFO - [3dd3dce1-8f16-4867-82f6-493de27d4df5] Removing temporary file: temp_uploads/75e86f91-2d9b-44dc-a022-166817b48857.pdf
+2026-01-02 12:34:42,615 - INFO - [3dd3dce1-8f16-4867-82f6-493de27d4df5] Background processing completed
+2026-01-02 12:48:52,133 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 12:48:52,219 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 12:48:52,244 - INFO - Async database connection test successful.
+2026-01-02 12:48:52,245 - INFO - Database connection established
+2026-01-02 12:48:52,245 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 12:48:52,246 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 12:48:52,527 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 12:49:28,099 - INFO - Existing record with status 'failed' found. Starting new extraction attempt.
+2026-01-02 12:49:28,124 - INFO - Starting background processing for 8c6f02a7-5622-411a-ab4d-eef4331d9dd9
+2026-01-02 12:49:28,125 - INFO - [8c6f02a7-5622-411a-ab4d-eef4331d9dd9] Updating tracker to INPROGRESS
+2026-01-02 12:49:28,132 - INFO - [8c6f02a7-5622-411a-ab4d-eef4331d9dd9] Tracker updated successfully
+2026-01-02 12:49:28,132 - INFO - [8c6f02a7-5622-411a-ab4d-eef4331d9dd9] Starting file processing: temp_uploads/1f720076-3b9a-40c8-be82-740a1d832f67.pdf
+2026-01-02 12:49:28,133 - INFO - Extracting text from file: temp_uploads/1f720076-3b9a-40c8-be82-740a1d832f67.pdf
+2026-01-02 12:49:28,244 - INFO - PDF extraction stats: 5 pages, 0 chars, avg 0.00 chars/page
+2026-01-02 12:49:28,245 - INFO - Average characters per page (0.00) is below threshold (100). Assuming scanned PDF.
+2026-01-02 12:49:28,245 - INFO - Performing OCR on page 1/5
+2026-01-02 12:49:28,517 - INFO - Performing OCR on page 2/5
+2026-01-02 12:49:28,953 - INFO - Performing OCR on page 3/5
+2026-01-02 12:49:29,575 - INFO - Performing OCR on page 4/5
+2026-01-02 12:49:29,958 - INFO - Performing OCR on page 5/5
+2026-01-02 12:49:30,221 - INFO - Text extracted successfully - Length: 4540 chars, Tokens: 947
+2026-01-02 12:49:30,221 - INFO - Chunking text with max_tokens=100000, overlap=500
+2026-01-02 12:49:30,222 - INFO - Document split into 1 chunk(s)
+2026-01-02 12:49:30,223 - INFO - Processing chunk 1/1 (947 tokens)...
+2026-01-02 12:50:57,694 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 12:50:57,707 - INFO - Chunk 1/1 processed successfully
+2026-01-02 12:50:57,708 - INFO - All 1 chunks processed successfully
+2026-01-02 12:50:57,709 - INFO - [8c6f02a7-5622-411a-ab4d-eef4331d9dd9] File processing completed with status: success
+2026-01-02 12:50:57,709 - INFO - [8c6f02a7-5622-411a-ab4d-eef4331d9dd9] Extraction successful, updating tracker to SUCCESS
+2026-01-02 12:50:57,716 - INFO - [8c6f02a7-5622-411a-ab4d-eef4331d9dd9] Successfully updated tracker with extracted data
+2026-01-02 12:50:57,717 - INFO - [8c6f02a7-5622-411a-ab4d-eef4331d9dd9] Cleanup started
+2026-01-02 12:50:57,719 - INFO - [8c6f02a7-5622-411a-ab4d-eef4331d9dd9] Removing temporary file: temp_uploads/1f720076-3b9a-40c8-be82-740a1d832f67.pdf
+2026-01-02 12:50:57,722 - INFO - [8c6f02a7-5622-411a-ab4d-eef4331d9dd9] Background processing completed
+2026-01-02 13:18:06,050 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 13:18:06,052 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:06,052 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:08,635 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 13:18:08,638 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:08,638 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:11,136 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 13:18:11,139 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:11,140 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:13,859 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 13:18:13,862 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:13,863 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:16,658 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 13:18:16,661 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:16,662 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:20,253 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 13:18:20,256 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:20,256 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:25,511 - INFO - Loading schema from: benifits_model.schema.json
+2026-01-02 13:18:25,513 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:18:25,514 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'benifits_model.schema.json'
+2026-01-02 13:19:35,626 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:19:35,628 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:35,629 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:37,990 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:19:37,993 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:37,993 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:40,279 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:19:40,282 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:40,282 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:42,747 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:19:42,750 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:42,750 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:45,537 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:19:45,540 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:45,541 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:49,122 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:19:49,125 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:49,126 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:54,327 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:19:54,330 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:19:54,330 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:20:02,612 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:20:02,615 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:20:02,615 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:20:17,437 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:20:17,440 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:20:17,440 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:44,082 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:26:44,085 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:44,086 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:46,805 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:26:46,809 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:46,809 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:49,384 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:26:49,386 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:49,387 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:51,884 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:26:51,887 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:51,888 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:54,653 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:26:54,656 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:54,656 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:58,140 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:26:58,143 - ERROR - Failed to build model from schema: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:26:58,144 - ERROR - Lifespan startup failed: [Errno 2] No such file or directory: 'schemas\\contract_model.schema.json'
+2026-01-02 13:30:37,722 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:30:37,727 - ERROR - ❌ Schema file not found.
+2026-01-02 13:30:37,728 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:37,729 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:37,730 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:30:37,732 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:30:40,243 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:30:40,245 - ERROR - ❌ Schema file not found.
+2026-01-02 13:30:40,246 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:40,246 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:40,247 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:30:40,247 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:30:42,662 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:30:42,665 - ERROR - ❌ Schema file not found.
+2026-01-02 13:30:42,666 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:42,666 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:42,667 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:30:42,667 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:30:45,099 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:30:45,102 - ERROR - ❌ Schema file not found.
+2026-01-02 13:30:45,102 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:45,103 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:45,103 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:30:45,104 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:30:47,778 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:30:47,781 - ERROR - ❌ Schema file not found.
+2026-01-02 13:30:47,781 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:47,782 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:30:47,782 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:30:47,782 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:23,772 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:36:23,775 - ERROR - ❌ Schema file not found.
+2026-01-02 13:36:23,776 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:23,776 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:23,777 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:23,777 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:25,670 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:36:25,672 - ERROR - ❌ Schema file not found.
+2026-01-02 13:36:25,673 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:25,673 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:25,674 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:25,674 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:27,626 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:36:27,628 - ERROR - ❌ Schema file not found.
+2026-01-02 13:36:27,629 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:27,629 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:27,630 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:27,630 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:29,545 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:36:29,548 - ERROR - ❌ Schema file not found.
+2026-01-02 13:36:29,548 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:29,549 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:29,549 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:29,550 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:31,832 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:36:31,835 - ERROR - ❌ Schema file not found.
+2026-01-02 13:36:31,835 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:31,836 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:36:31,836 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:36:31,837 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:37:46,242 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:37:46,245 - ERROR - ❌ Schema file not found.
+2026-01-02 13:37:46,246 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:37:46,247 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:37:46,247 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:37:46,248 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:37:48,107 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:37:48,110 - ERROR - ❌ Schema file not found.
+2026-01-02 13:37:48,110 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:37:48,110 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:37:48,111 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:37:48,111 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:37:49,976 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:37:49,980 - ERROR - ❌ Schema file not found.
+2026-01-02 13:37:49,980 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:37:49,981 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:37:49,981 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:37:49,982 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:37:52,007 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:37:52,010 - ERROR - ❌ Schema file not found.
+2026-01-02 13:37:52,010 - ERROR - Searched CWD: /app/schemas\contract_model.schema.json
+2026-01-02 13:37:52,011 - ERROR - Searched Relative: /app/schemas\contract_model.schema.json
+2026-01-02 13:37:52,011 - ERROR - Failed to build model from schema: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:37:52,011 - ERROR - Lifespan startup failed: Schema not found: schemas\contract_model.schema.json
+2026-01-02 13:38:09,212 - INFO - Loading schema from: contract_model.schema.json
+2026-01-02 13:38:09,215 - INFO - Loading schema from: /app/contract_model.schema.json
+2026-01-02 13:38:09,246 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 13:38:09,283 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 13:38:09,331 - INFO - Async database connection test successful.
+2026-01-02 13:38:09,331 - INFO - Database connection established
+2026-01-02 13:38:09,332 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 13:38:09,332 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 13:39:09,048 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 13:41:35,651 - INFO - Disposing async engine.
+2026-01-02 13:41:50,764 - INFO - Loading schema from: schemas/contract_model.schema.json
+2026-01-02 13:41:50,769 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 13:41:50,800 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 13:41:50,833 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 13:41:50,861 - INFO - Async database connection test successful.
+2026-01-02 13:41:50,862 - INFO - Database connection established
+2026-01-02 13:41:50,862 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 13:41:50,863 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 13:42:58,286 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 13:44:51,215 - INFO - Disposing async engine.
+2026-01-02 13:45:08,108 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 13:45:08,112 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 13:45:08,140 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 13:45:08,173 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 13:45:08,198 - INFO - Async database connection test successful.
+2026-01-02 13:45:08,199 - INFO - Database connection established
+2026-01-02 13:45:08,200 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 13:45:08,200 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 13:45:27,948 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 14:02:23,040 - INFO - Disposing async engine.
+2026-01-02 14:11:53,216 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 14:11:53,227 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 14:11:53,287 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 14:11:53,344 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 14:11:53,430 - INFO - Async database connection test successful.
+2026-01-02 14:11:53,431 - INFO - Database connection established
+2026-01-02 14:11:53,434 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 14:11:53,437 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 14:12:08,633 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 14:13:58,369 - INFO - Starting background processing for 260af289-b7e9-4a95-8fc6-0fbf1d69811d
+2026-01-02 14:13:58,370 - INFO - [260af289-b7e9-4a95-8fc6-0fbf1d69811d] Updating tracker to INPROGRESS
+2026-01-02 14:13:58,380 - INFO - [260af289-b7e9-4a95-8fc6-0fbf1d69811d] Tracker updated successfully
+2026-01-02 14:13:58,382 - INFO - [260af289-b7e9-4a95-8fc6-0fbf1d69811d] Starting file processing: temp_uploads/4a73eb10-8216-4636-b7e2-fae1777166f4.txt
+2026-01-02 14:13:58,383 - INFO - Extracting text from file: temp_uploads/4a73eb10-8216-4636-b7e2-fae1777166f4.txt
+2026-01-02 14:13:58,438 - INFO - Text extracted successfully - Length: 52 chars, Tokens: 13
+2026-01-02 14:13:58,440 - INFO - Chunking text with max_tokens=100000, overlap=500
+2026-01-02 14:13:58,442 - INFO - Document split into 1 chunk(s)
+2026-01-02 14:13:58,444 - INFO - Processing chunk 1/1 (13 tokens)...
+2026-01-02 14:14:22,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 14:14:22,686 - INFO - Chunk 1/1 processed successfully
+2026-01-02 14:14:22,689 - INFO - All 1 chunks processed successfully
+2026-01-02 14:14:22,691 - INFO - [260af289-b7e9-4a95-8fc6-0fbf1d69811d] File processing completed with status: success
+2026-01-02 14:14:22,692 - INFO - [260af289-b7e9-4a95-8fc6-0fbf1d69811d] Extraction successful, updating tracker to SUCCESS
+2026-01-02 14:14:22,711 - INFO - [260af289-b7e9-4a95-8fc6-0fbf1d69811d] Successfully updated tracker with extracted data
+2026-01-02 14:14:22,712 - INFO - [260af289-b7e9-4a95-8fc6-0fbf1d69811d] Cleanup started
+2026-01-02 14:14:22,717 - INFO - [260af289-b7e9-4a95-8fc6-0fbf1d69811d] Removing temporary file: temp_uploads/4a73eb10-8216-4636-b7e2-fae1777166f4.txt
+2026-01-02 14:14:22,727 - INFO - [260af289-b7e9-4a95-8fc6-0fbf1d69811d] Background processing completed
+2026-01-02 14:16:45,774 - INFO - Disposing async engine.
+2026-01-02 14:25:41,281 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 14:25:41,287 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 14:25:41,338 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 14:25:41,406 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 14:25:41,454 - INFO - Async database connection test successful.
+2026-01-02 14:25:41,455 - INFO - Database connection established
+2026-01-02 14:25:41,456 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 14:25:41,457 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 14:26:28,375 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 14:28:20,759 - INFO - Starting background processing for ec88e2ba-4c5b-40d7-8857-38b435d5778f
+2026-01-02 14:28:20,760 - INFO - [ec88e2ba-4c5b-40d7-8857-38b435d5778f] Updating tracker to INPROGRESS
+2026-01-02 14:28:20,770 - INFO - [ec88e2ba-4c5b-40d7-8857-38b435d5778f] Tracker updated successfully
+2026-01-02 14:28:20,771 - INFO - [ec88e2ba-4c5b-40d7-8857-38b435d5778f] Starting file processing: temp_uploads/468b6f20-6057-44d8-a70e-bbea2d503c18.txt
+2026-01-02 14:28:20,772 - INFO - Extracting text from file: temp_uploads/468b6f20-6057-44d8-a70e-bbea2d503c18.txt
+2026-01-02 14:28:20,819 - INFO - Text extracted successfully - Length: 52 chars, Tokens: 13
+2026-01-02 14:28:20,821 - INFO - Chunking text with max_tokens=100000, overlap=500
+2026-01-02 14:28:20,822 - INFO - Document split into 1 chunk(s)
+2026-01-02 14:28:20,824 - INFO - Processing chunk 1/1 (13 tokens)...
+2026-01-02 14:28:59,118 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 14:28:59,149 - INFO - Chunk 1/1 processed successfully
+2026-01-02 14:28:59,151 - INFO - All 1 chunks processed successfully
+2026-01-02 14:28:59,152 - INFO - [ec88e2ba-4c5b-40d7-8857-38b435d5778f] File processing completed with status: success
+2026-01-02 14:28:59,154 - INFO - [ec88e2ba-4c5b-40d7-8857-38b435d5778f] Extraction successful, updating tracker to SUCCESS
+2026-01-02 14:28:59,166 - INFO - [ec88e2ba-4c5b-40d7-8857-38b435d5778f] Successfully updated tracker with extracted data
+2026-01-02 14:28:59,167 - INFO - [ec88e2ba-4c5b-40d7-8857-38b435d5778f] Cleanup started
+2026-01-02 14:28:59,173 - INFO - [ec88e2ba-4c5b-40d7-8857-38b435d5778f] Removing temporary file: temp_uploads/468b6f20-6057-44d8-a70e-bbea2d503c18.txt
+2026-01-02 14:28:59,180 - INFO - [ec88e2ba-4c5b-40d7-8857-38b435d5778f] Background processing completed
+2026-01-02 14:33:32,266 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 14:33:32,277 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 14:33:32,330 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 14:33:32,413 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 14:33:32,460 - INFO - Async database connection test successful.
+2026-01-02 14:33:32,462 - INFO - Database connection established
+2026-01-02 14:33:32,464 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 14:33:32,465 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 14:33:54,787 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 14:37:17,095 - INFO - Disposing async engine.
+2026-01-02 14:37:22,793 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 14:37:22,797 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 14:37:22,846 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 14:37:22,931 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 14:37:22,974 - INFO - Async database connection test successful.
+2026-01-02 14:37:22,975 - INFO - Database connection established
+2026-01-02 14:37:22,976 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 14:37:22,977 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 14:38:45,098 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 14:49:55,020 - INFO - Disposing async engine.
+2026-01-02 14:50:01,363 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 14:50:01,371 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 14:50:01,444 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 14:50:01,539 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 14:50:01,570 - INFO - Async database connection test successful.
+2026-01-02 14:50:01,571 - INFO - Database connection established
+2026-01-02 14:50:01,572 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 14:50:01,572 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 14:51:29,313 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 14:52:39,154 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 14:52:39,161 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 14:52:39,209 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 14:52:39,275 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 14:52:39,310 - INFO - Async database connection test successful.
+2026-01-02 14:52:39,311 - INFO - Database connection established
+2026-01-02 14:52:39,311 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 14:52:39,312 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 14:52:39,674 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 14:53:47,031 - INFO - Disposing async engine.
+2026-01-02 14:54:05,214 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 14:54:05,220 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 14:54:05,258 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 14:54:05,304 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 14:54:05,337 - INFO - Async database connection test successful.
+2026-01-02 14:54:05,338 - INFO - Database connection established
+2026-01-02 14:54:05,339 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 14:54:05,340 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 14:55:29,452 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 14:56:22,414 - INFO - Disposing async engine.
+2026-01-02 14:56:40,319 - INFO - Loading schema from: schemas\contract_model.schema.json
+2026-01-02 14:56:40,324 - INFO - Loading schema from: /app/schemas/contract_model.schema.json
+2026-01-02 14:56:40,361 - INFO - ✅ Schema validation successful: Model is compatible with OpenAI Structured Outputs.
+2026-01-02 14:56:40,410 - INFO - AsyncDatabaseClient initialized for extraction_db
+2026-01-02 14:56:40,444 - INFO - Async database connection test successful.
+2026-01-02 14:56:40,445 - INFO - Database connection established
+2026-01-02 14:56:40,446 - WARNING - AWS credentials not found. S3 storage will be skipped.
+2026-01-02 14:56:40,447 - INFO - Initializing GenericDataExtractor with model=gpt-5-mini
+2026-01-02 14:56:40,466 - INFO - Loading o200k_base tokenizer...
+2026-01-02 14:56:40,781 - INFO - o200k_base tokenizer loaded successfully.
+2026-01-02 14:56:40,782 - INFO - GenericDataExtractor initialized successfully
+2026-01-02 15:05:25,744 - INFO - Disposing async engine.

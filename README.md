@@ -1,6 +1,6 @@
-# Doc2JSON: AI Powered Data Extraction Service
+# 📄 Doc2JSON AI
 
-A powerful, FastAPI-based service that converts any unstructured document (PDF, DOCX, TXT) into structured JSON data using OpenAI's Structured Outputs. It dynamically builds response models from any provided JSON schema.
+A high-performance, LLM-powered extraction engine transforming unstructured documents into structured JSON. Leveraging an optimized, production-ready FastAPI architecture with OpenAI’s Structured Outputs, it provides dynamic schema adaptation and advanced chunking for scalable enterprise data intelligence.
 
 ---
 
@@ -13,13 +13,12 @@ The fastest way to get the service running with its own local database.
     ```bash
     cp .env.example .env
     ```
-3.  **Add your OpenAI API Key** and set the model:
-    ```env
-    OPENAI_API_KEY=sk-proj-...
-    MODEL_ID=gpt-5-mini # Recommended for large documents (>100k tokens)
-    ```
+3.  **Configure your extraction**:
+    *   **OpenAI API Key**: Set `OPENAI_API_KEY`.
+    *   **Model**: Set `MODEL_ID` (e.g., `gpt-4o-mini`).
+    *   **Custom Schema**: Define your desired data structure in a JSON file and point to it using `RESPONSE_SCHEMA_PATH` in `.env`.
     > [!TIP]
-    > For best results with large documents, use `gpt-5-mini` or models with context length > 128k.
+    > Need help with schemas? See the [Schema Creation Guide](SCHEMA_CREATION_GUIDE.md) for a crisp walkthrough on building OpenAI-compatible strict models.
 4.  **Start the application**:
     ```bash
     docker-compose up --build
@@ -27,7 +26,7 @@ The fastest way to get the service running with its own local database.
 5.  **Access the Services**:
     - **User Interface (Streamlit)**: `http://localhost:8501`
     - **API (FastAPI)**: `http://localhost:8021`
-    - **Interactive Docs (Swagger UI)**: `http://localhost:8021/docs` (Great for "getting your hands dirty" with the API!)
+    - **Interactive Docs (Swagger UI)**: `http://localhost:8021/docs`
 
 ---
 

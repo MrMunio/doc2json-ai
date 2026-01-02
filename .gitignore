@@ -6,6 +6,8 @@ cache/
 temp_uploads/
 files/
 schemas/
+.streamlit/
+.vscode/
 
 # Python
 __pycache__/

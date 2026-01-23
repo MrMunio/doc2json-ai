@@ -32,20 +32,26 @@ class GenericDataExtractor:
     """
     
     def __init__(
-        self, 
-        model_id: str = "gpt-4o-mini",
-        api_key: Optional[str] = None, 
-        max_tokens: int = 100000,
-        token_overlap: int = 500,
-        response_model: Optional[Type[BaseModel]] = None,
-        scan_density_threshold: int = 100
-    ):
+            self, 
+            model_id: str = "gpt-4o-mini",
+            api_key: Optional[str] = None, 
+            max_tokens: int = 100000,
+            token_overlap: int = 500,
+            response_model: Optional[Type[BaseModel]] = None,
+            scan_density_threshold: int = 100,
+            ocr_method: str = "tesseract"  # Options: "tesseract", "vlm"
+        ):
         self.api_key = api_key
         self.model = model_id
         self.max_tokens = max_tokens
         self.token_overlap = token_overlap
         self.response_model = response_model
         self.scan_density_threshold = scan_density_threshold
+        self.ocr_method = ocr_method.lower()
+        
+        # Validate ocr_method
+        if self.ocr_method not in ["tesseract", "vlm"]:
+            raise ValueError(f"Invalid ocr_method: {ocr_method}. Must be 'tesseract' or 'vlm'.")
         
         self.client = None
         self.tokenizer = None
@@ -133,22 +139,161 @@ class GenericDataExtractor:
         except UnicodeDecodeError:
             return path.read_text(encoding='latin-1')
 
-    def _extract_scanned_pdf(self, doc) -> str:
+    async def _extract_page_with_vlm(self, img_bytes: bytes, page_num: int, total_pages: int) -> str:
+        """
+        Extract text from a single page image using VLM (Vision Language Model).
+        
+        Args:
+            img_bytes: PNG image bytes of the page
+            page_num: Current page number (1-indexed)
+            total_pages: Total number of pages in document
+            
+        Returns:
+            Extracted text from the page
+        """
+        import base64
+        
+        try:
+            logger.info(f"Processing page {page_num}/{total_pages} with VLM ({self.model})")
+            
+            # Encode image to base64
+            img_b64 = base64.b64encode(img_bytes).decode('utf-8')
+            
+            # Call VLM API to extract text
+            response = await self.client.chat.completions.create(
+                model=self.model,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "You are a text extraction assistant. Extract all text from the provided image exactly as it appears, preserving formatting, structure, and layout as much as possible. Do not add any commentary or explanations. Preserve checkbox (if found) values and radio button values, so that reader can understand which option is selected among available options."
+                    },
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Extract all text from this document page image:"
+                            },
+                            {
+                                "type": "image_url",
+                                "image_url": {
+                                    "url": f"data:image/png;base64,{img_b64}"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                max_completion_tokens=4096
+            )
+            
+            extracted_text = response.choices[0].message.content.strip()
+            logger.info(f"Page {page_num}/{total_pages} processed successfully ({len(extracted_text)} chars)")
+            logger.debug(f"Extracted text from page {page_num}: {extracted_text}")
+            return extracted_text
+            
+        except Exception as e:
+            logger.error(f"Error extracting text from page {page_num} with VLM: {e}")
+            return f"[Error extracting page {page_num}: {str(e)}]"
+    
+    async def _extract_scanned_pdf_vlm(self, doc) -> str:
+        """
+        Extract text from scanned PDF using Vision Language Model (VLM).
+        Processes all pages in parallel for efficiency.
+        
+        Args:
+            doc: PyMuPDF document object
+            
+        Returns:
+            Combined text from all pages with page number markings
+        """
+        if not Image or not io:
+            logger.warning("Image processing dependencies (Pillow) not found. Returning empty text.")
+            return ""
+        
+        if not self.client:
+            logger.error("OpenAI client not initialized. Cannot use VLM for OCR.")
+            return ""
+        
+        total_pages = len(doc)
+        logger.info(f"Starting VLM-based extraction for {total_pages} pages using {self.model}")
+        
+        # Prepare all page images
+        page_tasks = []
+        for i, page in enumerate(doc):
+            page_num = i + 1
+            pix = page.get_pixmap(dpi=150)  # Higher DPI for better quality
+            img_bytes = pix.tobytes("png")
+            page_tasks.append(self._extract_page_with_vlm(img_bytes, page_num, total_pages))
+        
+        # Process all pages in parallel
+        logger.info(f"Processing {total_pages} pages in parallel...")
+        page_texts = await asyncio.gather(*page_tasks)
+        
+        # Combine results with page number markings
+        combined_parts = []
+        for i, text in enumerate(page_texts):
+            page_num = i + 1
+            combined_parts.append(f"--- Page {page_num} ---\n{text}")
+        
+        result = "\n\n".join(combined_parts)
+        logger.info(f"VLM extraction complete. Total extracted text: {len(result)} characters")
+        return result
+    
+    def _extract_scanned_pdf_tesseract(self, doc) -> str:
+        """
+        Extract text from scanned PDF using Tesseract OCR.
+        
+        Args:
+            doc: PyMuPDF document object
+            
+        Returns:
+            Combined text from all pages
+        """
         if not pytesseract or not Image or not io:
             logger.warning("OCR dependencies (pytesseract, Pillow) not found. Returning empty/partial text.")
             return "" 
             
         ocr_parts = []
         for i, page in enumerate(doc):
-            logger.info(f"Performing OCR on page {i+1}/{len(doc)}")
+            page_num = i + 1
+            logger.info(f"Performing Tesseract OCR on page {page_num}/{len(doc)}")
             pix = page.get_pixmap()
             img_bytes = pix.tobytes("png")
             image = Image.open(io.BytesIO(img_bytes))
             text = pytesseract.image_to_string(image, lang='eng')
-            ocr_parts.append(text)
+            ocr_parts.append(f"--- Page {page_num} ---\n{text}")
+        
         return "\n\n".join(ocr_parts)
+    
+    async def _extract_scanned_pdf(self, doc) -> str:
+        """
+        Extract text from scanned PDF using configured OCR method.
+        Supports both Tesseract OCR and VLM-based extraction.
+        
+        Args:
+            doc: PyMuPDF document object
+            
+        Returns:
+            Extracted text from all pages
+        """
+        if self.ocr_method == "vlm":
+            logger.info(f"Using VLM ({self.model}) for scanned PDF extraction")
+            return await self._extract_scanned_pdf_vlm(doc)
+        else:  # tesseract
+            logger.info("Using Tesseract OCR for scanned PDF extraction")
+            return self._extract_scanned_pdf_tesseract(doc)
 
-    def _extract_from_pdf(self, file_path: str) -> str:
+    async def _extract_from_pdf(self, file_path: str) -> str:
+        """
+        Extract text from PDF file. Automatically detects if PDF is scanned
+        and uses appropriate extraction method.
+        
+        Args:
+            file_path: Path to PDF file
+            
+        Returns:
+            Extracted text from PDF
+        """
         if not fitz:
             raise ImportError("PyMuPDF (fitz) is not installed.")
             
@@ -168,20 +313,29 @@ class GenericDataExtractor:
             
             if avg_chars < self.scan_density_threshold:
                 logger.info(f"Average characters per page ({avg_chars:.2f}) is below threshold ({self.scan_density_threshold}). Assuming scanned PDF.")
-                return self._extract_scanned_pdf(doc)
+                return await self._extract_scanned_pdf(doc)
                 
             return "\n".join(parts)
         finally:
             doc.close()
 
-    def extract_text(self, file_path: str) -> str:
+    async def extract_text(self, file_path: str) -> str:
+        """
+        Extract text from various file formats.
+        
+        Args:
+            file_path: Path to file
+            
+        Returns:
+            Extracted text
+        """
         path = Path(file_path)
         suffix = path.suffix.lower()
         
         if suffix == '.docx':
             return self._extract_from_docx(file_path)
         elif suffix == '.pdf':
-            return self._extract_from_pdf(file_path)
+            return await self._extract_from_pdf(file_path)
         elif suffix == '.txt':
             return self._extract_from_txt(path)
         
@@ -221,7 +375,7 @@ class GenericDataExtractor:
     async def process_file(self, file_path: str) -> Dict:
         try:
             logger.info(f"Extracting text from file: {file_path}")
-            text = await asyncio.to_thread(self.extract_text, file_path)
+            text = await self.extract_text(file_path)
             if not text.strip():
                 logger.warning(f"No text content found in file: {file_path}")
                 return {"status": "failed", "message": "No text content found"}

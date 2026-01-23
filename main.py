@@ -121,7 +121,8 @@ async def lifespan(app: FastAPI):
             model_id=MODEL_ID,
             max_tokens=MAX_TOKENS,
             token_overlap=TOKEN_OVERLAP,
-            response_model=response_model
+            response_model=response_model,
+            ocr_method="vlm" # "vlm" or "tesseract"
         )
         await extractor.initialize()
         logger.info("GenericDataExtractor initialized successfully")
